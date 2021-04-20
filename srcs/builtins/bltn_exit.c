@@ -12,7 +12,7 @@
 
 #include <minishell.h>
 
-long long		ft_atoll(char *str)
+long long	ft_atoll(char *str)
 {
 	int			i;
 	long long	num;
@@ -21,8 +21,8 @@ long long		ft_atoll(char *str)
 	min = 1;
 	i = 0;
 	num = 0;
-	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' ||
-				str[i] == '\r' || str[i] == '\v' || str[i] == '\f')
+	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n'
+		|| str[i] == '\r' || str[i] == '\v' || str[i] == '\f')
 		i++;
 	if (str[i] == '-')
 		min = -1;
@@ -36,9 +36,9 @@ long long		ft_atoll(char *str)
 	return (num * min);
 }
 
-void			bltn_exit(t_comand *cmd, int exit_flag)
+void	bltn_exit(t_comand *cmd, int exit_flag)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (exit_flag == 1)
@@ -53,7 +53,7 @@ void			bltn_exit(t_comand *cmd, int exit_flag)
 		|| cmd->args[1][i] != '\0')
 	{
 		fd_printf(2, "minishell: exit: %s: numeric argument required\n",
-						cmd->args[1]);
+			cmd->args[1]);
 		exit(255);
 	}
 	if (cmd->args[2])

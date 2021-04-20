@@ -28,12 +28,12 @@ char	**assemble_env_export(t_queue *env)
 		{
 			tmp = ft_strjoin_tripple("\"", token->value, "\"");
 			env_line = ft_strjoin_tripple(token->name, "=", tmp);
-			(tmp) ? free(tmp) : NULL;
+			ft_free(tmp);
 		}
 		else
 			env_line = ft_strdup(token->name);
 		res_env = realloc_2d_array(res_env, env_line);
-		(env_line) ? free(env_line) : NULL;
+		ft_free(env_line);
 		env = env->next;
 	}
 	return (res_env);

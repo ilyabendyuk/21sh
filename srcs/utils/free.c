@@ -12,6 +12,13 @@
 
 #include <minishell.h>
 
+void 	*ft_free(void *ptr)
+{
+	if (ptr)
+		free(ptr);
+	return (NULL);
+}
+
 void	free_redirs(t_queue *redir)
 {
 	t_redir *tmp;

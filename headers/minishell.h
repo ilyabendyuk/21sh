@@ -78,7 +78,7 @@ int			get_path(t_queue *env, char **cmd, int redir_flag);
 int			count_decrease_lvl(char *path);
 void		path_err(char *cmd);
 void		bltn_echo(t_comand *cmd);
-void		bltn_pwd();
+void		bltn_pwd(void);
 void		update_env(t_queue **env, char *name, char *val);
 void		bltn_cd(t_shell *shell, char *to_cd);
 void		bltn_exit(t_comand *cmd, int exit_flag);
@@ -91,7 +91,7 @@ void		exec_last_cmd(t_shell *shell, t_comand *cmd, int exit_flag);
 void		execute_cmd(t_shell *shell, t_comand *cmd, int exit_flag);
 void		execute_comands(t_shell *shell, t_queue *cmd);
 void		init_globals(void);
-t_comand	*init_cmd_struct();
+t_comand	*init_cmd_struct(void);
 void		free_comands(t_queue *cmd);
 void		free_tokens(t_queue *tokens);
 char		*get_redir_path(char *name);
@@ -105,5 +105,6 @@ t_queue		*push_pipe(t_queue *cmd, t_queue *tokens);
 int			check_redir(char *token);
 int			ft_is_export(char c);
 int			return_error(t_queue **c1, t_queue **q1, t_queue *c, t_queue *q);
+void 		*ft_free(void *ptr);
 
 #endif

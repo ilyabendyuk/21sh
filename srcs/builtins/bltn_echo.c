@@ -12,7 +12,7 @@
 
 #include <minishell.h>
 
-int		skip_n(char *arg)
+int	skip_n(char *arg)
 {
 	if (ft_strlen(arg) < 2)
 		return (0);
@@ -23,8 +23,8 @@ int		skip_n(char *arg)
 
 void	bltn_echo(t_comand *cmd)
 {
-	int i;
-	int new_line;
+	int	i;
+	int	new_line;
 
 	new_line = 0;
 	i = 1;
@@ -32,7 +32,8 @@ void	bltn_echo(t_comand *cmd)
 	{
 		while (skip_n(cmd->args[i]))
 			i++;
-		(i > 1) ? new_line = 1 : 0;
+		if (i > 1)
+			new_line = 1;
 		while (cmd->args[i])
 		{
 			if (cmd->args[i + 1])
@@ -41,7 +42,8 @@ void	bltn_echo(t_comand *cmd)
 				fd_printf(1, "%s", cmd->args[i]);
 			i++;
 		}
-		(!new_line) ? fd_printf(1, "\n") : 0;
+		if (!new_line)
+			fd_printf(1, "\n");
 	}
 	else
 		fd_printf(1, "\n");
