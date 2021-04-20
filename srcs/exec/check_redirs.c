@@ -1,18 +1,6 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   check_redirs.c                                     :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:22:25 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:22:00 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <minishell.h>
 
-int		try_open_redirs(t_shell *shell, t_redir *redir)
+int	try_open_redirs(t_shell *shell, t_redir *redir)
 {
 	int	flag;
 
@@ -40,7 +28,7 @@ int		try_open_redirs(t_shell *shell, t_redir *redir)
 
 void	error_redir(int flag, char *tmp_redir)
 {
-	DIR *dir;
+	DIR	*dir;
 
 	dir = NULL;
 	dir = opendir(tmp_redir);
@@ -54,7 +42,7 @@ void	error_redir(int flag, char *tmp_redir)
 		closedir(dir);
 }
 
-int		open_redirs_and_check(t_shell *shell, t_comand *cmd)
+int	open_redirs_and_check(t_shell *shell, t_comand *cmd)
 {
 	t_queue	*redir;
 	char	*tmp_redir;
