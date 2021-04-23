@@ -28,7 +28,7 @@ void	ft_putchar(const char ch, t_flags *flags)
 
 int	get_prec(t_flags *pft, const char *str)
 {
-	int prec;
+	int	prec;
 
 	if (pft->no_prec == 1 && pft->precision != 0)
 		prec = ft_strlen(str);
