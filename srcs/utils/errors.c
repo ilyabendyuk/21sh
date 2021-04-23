@@ -24,8 +24,9 @@ int	validation_error(t_queue *token, char *error)
 
 void	errno_err(char *cmd, int err_num, char *msg)
 {
+	err_num = 0;
 	if (msg)
 		fd_printf(2, "minishell: %s: %s\n", cmd, msg);
 	else
-		fd_printf(2, "minishell: %s: %s\n", cmd, strerror(err_num));
+		fd_printf(2, "minishell: %s: %s\n", cmd, "No such file or directory");
 }

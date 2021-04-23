@@ -53,7 +53,7 @@ int	main(int argc, char **argv, char **env)
 	(void)argv;
 	g_err = 0;
 	g_prev_err = 0;
-	g_ret = 0;
+	shell.g_ret = 0;
 	shell.args = NULL;
 	init_env(&shell, env);
 	minishell(&shell);

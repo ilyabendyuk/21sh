@@ -1,22 +1,9 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   minishell.h                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 23:35:53 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:50:14 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #ifndef MINISHELL_H
 # define MINISHELL_H
 # include <get_next_line.h>
 # include "../ft_printf/includes/ft_printf.h"
 # include <structs.h>
 # include <unistd.h>
-# include <errno.h>
 # include <stdlib.h>
 # include <fcntl.h>
 # include <string.h>
@@ -32,15 +19,9 @@
 
 intmax_t	g_prev_err;
 intmax_t	g_err;
+pid_t		g_pid;
 int			g_sigint;
 int			g_sigquit;
-int			g_pipe[2];
-int			g_fd_in;
-int			g_fd_out;
-int			g_save_in;
-int			g_save_out;
-pid_t		g_pid;
-int			g_ret;
 void		*ft_malloc(size_t bytes);
 int			ft_strlen_shell(const char *str);
 char		*ft_strdup(char *src);

@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   minishell.h                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:24:08 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:22:00 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #ifndef STRUCTS_H
 # define STRUCTS_H
 
@@ -45,6 +33,12 @@ typedef struct s_shell
 {
 	t_queue				*env;
 	t_queue				*args;
+	int					g_pipe[2];
+	int					g_fd_in;
+	int					g_fd_out;
+	int					g_save_in;
+	int					g_save_out;
+	int					g_ret;
 }						t_shell;
 
 #endif

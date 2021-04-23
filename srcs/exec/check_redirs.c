@@ -7,21 +7,21 @@ int	try_open_redirs(t_shell *shell, t_redir *redir)
 	flag = get_path(shell->env->head, &(redir->fname), 1);
 	if (redir->id[0] == '<')
 	{
-		if (g_fd_in != -2)
-			close(g_fd_in);
+		if (shell->g_fd_in != -2)
+			close(shell->g_fd_in);
 	}
 	if (redir->id[0] == '>')
 	{
-		if (g_fd_out != -2)
-			close(g_fd_out);
+		if (shell->g_fd_out != -2)
+			close(shell->g_fd_out);
 	}
 	if (ft_strequ(redir->id, "<<") || ft_strequ(redir->id, "<"))
-		g_fd_in = open(redir->fname, O_RDONLY);
+		shell->g_fd_in = open(redir->fname, O_RDONLY);
 	if (ft_strequ(redir->id, ">"))
-		g_fd_out = open(redir->fname, O_TRUNC | O_WRONLY | O_CREAT, S_IRUSR | \
+		shell->g_fd_out = open(redir->fname, O_TRUNC | O_WRONLY | O_CREAT, S_IRUSR | \
 			S_IWUSR | S_IRGRP | S_IROTH);
 	if (ft_strequ(redir->id, ">>"))
-		g_fd_out = open(redir->fname, O_APPEND | O_WRONLY | O_CREAT, S_IRUSR | \
+		shell->g_fd_out = open(redir->fname, O_APPEND | O_WRONLY | O_CREAT, S_IRUSR | \
 			S_IWUSR | S_IRGRP | S_IROTH);
 	return (flag);
 }
@@ -55,7 +55,8 @@ int	open_redirs_and_check(t_shell *shell, t_comand *cmd)
 		{
 			tmp_redir = ft_strdup(((t_redir *)redir->data)->fname);
 			flag = try_open_redirs(shell, redir->data);
-			if ((g_fd_in == -1 || g_fd_out == -1) || flag == OPEN_ERR)
+			if ((shell->g_fd_in == -1 || shell->g_fd_out == -1)
+				|| flag == OPEN_ERR)
 			{
 				error_redir(flag, tmp_redir);
 				g_err = 1;

@@ -16,13 +16,13 @@ void	exec_bin_cmd(t_shell *shell, t_comand *cmd)
 	{
 		signal(SIGINT, &sig_int);
 		signal(SIGQUIT, &sig_quit);
-		waitpid(g_pid, &g_ret, WUNTRACED);
-		g_err = WEXITSTATUS(g_ret);
+		waitpid(g_pid, &shell->g_ret, WUNTRACED);
+		g_err = WEXITSTATUS(shell->g_ret);
 	}
 	else
 	{
-		g_ret = execve(cmd->cmd, cmd->args, env);
-		exit(g_ret % 255);
+		shell->g_ret = execve(cmd->cmd, cmd->args, env);
+		exit(shell->g_ret % 255);
 	}
 	free_2d_array(env);
 }
@@ -55,21 +55,21 @@ void	exec_last_cmd(t_shell *shell, t_comand *cmd, int exit_flag)
 
 	save_fd[0] = dup(0);
 	save_fd[1] = dup(1);
-	if (g_fd_in >= 0)
-		dup2(g_fd_in, 0);
-	if (g_fd_out >= 0)
-		dup2(g_fd_out, 1);
+	if (shell->g_fd_in >= 0)
+		dup2(shell->g_fd_in, 0);
+	if (shell->g_fd_out >= 0)
+		dup2(shell->g_fd_out, 1);
 	execute_cmd(shell, cmd, exit_flag);
-	if (g_fd_in >= 0)
+	if (shell->g_fd_in >= 0)
 	{
-		close(g_fd_in);
-		g_fd_in = -2;
+		close(shell->g_fd_in);
+		shell->g_fd_in = -2;
 		dup2(save_fd[0], 0);
 	}
-	if (g_fd_out >= 0)
+	if (shell->g_fd_out >= 0)
 	{
-		close(g_fd_out);
-		g_fd_out = -2;
+		close(shell->g_fd_out);
+		shell->g_fd_out = -2;
 		dup2(save_fd[1], 1);
 	}
 }
@@ -81,25 +81,25 @@ void	wait_exec(t_shell *shell, t_comand *cmd)
 	(void)shell;
 	(void)cmd;
 	waitpid(-1, &err, 0);
-	close(g_pipe[1]);
-	if (g_fd_in == -2)
-		dup2(g_pipe[0], 0);
+	close(shell->g_pipe[1]);
+	if (shell->g_fd_in == -2)
+		dup2(shell->g_pipe[0], 0);
 	else
-		dup2(g_fd_in, 0);
-	close(g_pipe[0]);
+		dup2(shell->g_fd_in, 0);
+	close(shell->g_pipe[0]);
 	g_err = WEXITSTATUS(err);
-	g_fd_out = -2;
-	g_fd_in = -2;
+	shell->g_fd_out = -2;
+	shell->g_fd_in = -2;
 }
 
 void	handle_exec(t_shell *shell, t_comand *cmd, int exit_flag)
 {
-	close(g_pipe[0]);
-	if (g_fd_out == -2)
-		dup2(g_pipe[1], 1);
+	close(shell->g_pipe[0]);
+	if (shell->g_fd_out == -2)
+		dup2(shell->g_pipe[1], 1);
 	else
-		dup2(g_fd_out, 1);
-	close(g_pipe[1]);
+		dup2(shell->g_fd_out, 1);
+	close(shell->g_pipe[1]);
 	execute_cmd(shell, cmd, exit_flag);
 	exit((int)g_err % 256);
 }

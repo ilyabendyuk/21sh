@@ -82,9 +82,9 @@ int	check_path(char *path, int path_flag, int redir_flag)
 			return (1);
 		g_err = 127;
 		if (path_flag == RELATIVE_PATH)
-			errno_err(path, errno, NULL);
+			errno_err(path, 0, NULL);
 		else
-			errno_err(path, errno, "command not found");
+			errno_err(path, 0, "command not found");
 		return (OPEN_ERR);
 	}
 	close(fd);
