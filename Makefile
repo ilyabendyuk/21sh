@@ -2,7 +2,7 @@ NAME = minishell
 
 MAIN =	main.c
 
-BUILTINS =	bltn_cd.c bltn_echo.c bltn_exit.c bltn_export.c bltn_pwd.c bltn_unset.c
+BUILTINS =	bltn_cd.c bltn_echo.c bltn_exit.c bltn_setenv.c bltn_pwd.c bltn_unset.c
 
 ENV =	assemble_env.c get_env_var.c parse_env_var.c update_env.c \
         create_env_instance.c init_env.c print_env.c

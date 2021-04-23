@@ -55,7 +55,7 @@ void	check_and_replace_env(t_queue *env, char *arg)
 	if ((arg[0] >= '0' && arg[0] <= '9') || arg[0] == '=')
 	{
 		g_err = 1;
-		ft_printf("minishell: export: %s: not a valid identifier\n", arg);
+		ft_printf("minishell: setenv: %s: not a valid identifier\n", arg);
 		return ;
 	}
 	name = ft_strndup(arg, i);
@@ -65,7 +65,7 @@ void	check_and_replace_env(t_queue *env, char *arg)
 	free(val);
 }
 
-void	bltn_export(t_queue *env, char **args)
+void	bltn_setenv(t_queue *env, char **args)
 {
 	int		i;
 

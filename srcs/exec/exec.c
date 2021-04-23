@@ -39,12 +39,12 @@ void	execute_cmd(t_shell *shell, t_comand *cmd, int exit_flag)
 		bltn_cd(shell, cmd->args[1]);
 	else if (ft_strequ(cmd->cmd, "exit"))
 		bltn_exit(cmd, exit_flag);
-	else if (ft_strequ(cmd->cmd, "export"))
-		bltn_export(shell->env->head, cmd->args);
+	else if (ft_strequ(cmd->cmd, "setenv"))
+		bltn_setenv(shell->env->head, cmd->args);
 	else if (ft_strequ(cmd->cmd, "env"))
 		print_env(shell->env->head);
-	else if (ft_strequ(cmd->cmd, "unset"))
-		bltn_unset(shell->env->head, cmd->args);
+	else if (ft_strequ(cmd->cmd, "unsetenv"))
+		bltn_unsetenv(shell->env->head, cmd->args);
 	else
 		exec_bin_cmd(shell, cmd);
 }

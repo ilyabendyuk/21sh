@@ -10,7 +10,7 @@ add_executable(untitled
         srcs/builtins/bltn_cd.c
         srcs/builtins/bltn_echo.c
         srcs/builtins/bltn_exit.c
-        srcs/builtins/bltn_export.c
+        srcs/builtins/bltn_setenv.c
         srcs/builtins/bltn_pwd.c
         srcs/builtins/bltn_unset.c
         srcs/env/assemble_env.c
