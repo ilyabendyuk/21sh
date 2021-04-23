@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   errors.c                                           :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:23:14 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:22:00 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <minishell.h>
 
 void	errors(char *error)
@@ -18,9 +6,9 @@ void	errors(char *error)
 	exit(1);
 }
 
-int		validation_error(t_queue *token, char *error)
+int	validation_error(t_queue *token, char *error)
 {
-	char *msg;
+	char	*msg;
 
 	g_err = 258;
 	if (error)
@@ -30,7 +18,7 @@ int		validation_error(t_queue *token, char *error)
 	else
 		msg = token->data;
 	fd_printf(2,
-			"minishell: syntax error near unexpected token '%s'\n", msg);
+		   "minishell: syntax error near unexpected token '%s'\n", msg);
 	return (0);
 }
 

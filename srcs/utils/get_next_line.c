@@ -1,19 +1,7 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:23:37 by airma             #+#    #+#             */
-/*   Updated: 2021/01/15 01:20:04 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <get_next_line.h>
 #include <minishell.h>
 
-static int		check_remember(char **remember, char **line)
+static int	check_remember(char **remember, char **line)
 {
 	char	*search_n;
 	char	*remember_copy;

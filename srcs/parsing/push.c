@@ -1,20 +1,8 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   push.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:22:51 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:22:00 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <minishell.h>
 
 void	push_redir(t_queue *cmd, t_queue **tokens)
 {
-	t_redir *redir;
+	t_redir	*redir;
 
 	redir = (t_redir *)ft_malloc(sizeof(t_redir));
 	redir->id = ft_strdup((*tokens)->data);
@@ -25,8 +13,8 @@ void	push_redir(t_queue *cmd, t_queue **tokens)
 
 void	push_args(t_queue *cmd, t_queue *token)
 {
-	((t_comand *)cmd->data)->args =
-			realloc_2d_array(((t_comand *)cmd->data)->args, token->data);
+	((t_comand *)cmd->data)->args
+		= realloc_2d_array(((t_comand *)cmd->data)->args, token->data);
 }
 
 t_queue	*push_pipe(t_queue *cmd, t_queue *tokens)
@@ -37,7 +25,7 @@ t_queue	*push_pipe(t_queue *cmd, t_queue *tokens)
 	flag = 0;
 	push_back(&cmd, init_cmd_struct());
 	while (tokens && ft_strequ(tokens->data, ";") == 0
-			&& ft_strequ(tokens->data, "|") == 0)
+		&& ft_strequ(tokens->data, "|") == 0)
 	{
 		if (flag == 0)
 		{

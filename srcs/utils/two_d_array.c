@@ -12,7 +12,7 @@
 
 #include <minishell.h>
 
-int		arr_2d_len(char **arr)
+int	arr_2d_len(char **arr)
 {
 	int		i;
 
@@ -33,10 +33,10 @@ void	free_2d_array(char **arr)
 		return ;
 	while (arr[i] != NULL)
 	{
-		(arr[i]) ? free(arr[i]) : NULL;
+		ft_free(arr[i]);
 		i++;
 	}
-	(arr) ? free(arr) : NULL;
+	ft_free(arr);
 }
 
 char	**realloc_2d_array(char **arr, char *line)

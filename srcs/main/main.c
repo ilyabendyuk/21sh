@@ -5,21 +5,20 @@ void	parse_and_exec(t_shell *shell, char *line)
 {
 	int		ret;
 
-	if ((ret = get_next_line(0, &line)) > 0)
+	ret = get_next_line(0, &line);
+	if (ret > 0)
 	{
 		parse_comands(shell, line);
 		if (validate_tokens(shell->args) == 0)
 		{
-			(line) ? free(line) : NULL;
-			line = NULL;
+			line = ft_free(line);
 			free_tokens(shell->args);
 			show_promt(shell);
 			return ;
 		}
 		assemble_tokens_to_cmds(shell);
 		free_tokens(shell->args);
-		(line) ? free(line) : NULL;
-		line = NULL;
+		line = ft_free(line);
 		show_promt(shell);
 	}
 	if (ret == 0)
@@ -27,7 +26,7 @@ void	parse_and_exec(t_shell *shell, char *line)
 		ft_printf("exit\n");
 		exit(g_err);
 	}
-	(line) ? free(line) : NULL;
+	ft_free(line);
 }
 
 void	minishell(t_shell *shell)
@@ -46,7 +45,7 @@ void	minishell(t_shell *shell)
 	}
 }
 
-int		main(int argc, char **argv, char **env)
+int	main(int argc, char **argv, char **env)
 {
 	t_shell	shell;
 

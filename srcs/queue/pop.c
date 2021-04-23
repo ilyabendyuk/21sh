@@ -1,16 +1,11 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   pop.c                                              :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:23:04 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:22:00 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <minishell.h>
+
+void	reset(t_queue *d)
+{
+	d->data = NULL;
+	d->next = NULL;
+	d->prev = NULL;
+}
 
 void	*pop(t_queue **queue, void *to_del)
 {
@@ -24,12 +19,13 @@ void	*pop(t_queue **queue, void *to_del)
 			if (d->data == to_del)
 			{
 				d->prev->next = d->next;
-				(d->next) ? d->next->prev = d->prev : NULL;
-				!(d->next) ? d->tail = d->prev : NULL;
-				(d == d->head && d->next) ? d->next->head = d->next : NULL;
-				d->data = NULL;
-				d->next = NULL;
-				d->prev = NULL;
+				if (d->next)
+					d->next->prev = d->prev;
+				else
+					d->tail = d->prev;
+				if (d == d->head && d->next)
+					d->next->head = d->next;
+				reset(d);
 				free(d);
 				return (to_del);
 			}

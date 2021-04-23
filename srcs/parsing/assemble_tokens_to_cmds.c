@@ -1,25 +1,14 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   assemble_tokens_to_cmds.c                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:22:43 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:22:00 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <minishell.h>
 
-int		exec_separator(t_shell *shell, t_queue **c, t_queue **to)
+int	exec_separator(t_shell *shell, t_queue **c, t_queue **to)
 {
-	t_queue *tokens;
-	t_queue *cmd;
+	t_queue	*tokens;
+	t_queue	*cmd;
 
 	cmd = *c;
 	tokens = *to;
-	(cmd) ? execute_comands(shell, cmd) : NULL;
+	if (cmd)
+		execute_comands(shell, cmd);
 	free_comands(cmd);
 	cmd = NULL;
 	tokens = tokens->next;
@@ -44,8 +33,8 @@ void	assemble_main_cmd(t_queue *tokens, t_queue *cmd, int flag)
 
 void	assemble_redir_and_args(t_queue **to, t_queue **c)
 {
-	t_queue *tokens;
-	t_queue *cmd;
+	t_queue	*tokens;
+	t_queue	*cmd;
 
 	tokens = *to;
 	cmd = *c;
@@ -57,10 +46,10 @@ void	assemble_redir_and_args(t_queue **to, t_queue **c)
 	*to = tokens;
 }
 
-int		assemble_one_cmd(t_shell *shell, t_queue **to, t_queue **c, int flag)
+int	assemble_one_cmd(t_shell *shell, t_queue **to, t_queue **c, int flag)
 {
-	t_queue *tokens;
-	t_queue *cmd;
+	t_queue	*tokens;
+	t_queue	*cmd;
 
 	cmd = *c;
 	tokens = *to;
@@ -73,7 +62,8 @@ int		assemble_one_cmd(t_shell *shell, t_queue **to, t_queue **c, int flag)
 	}
 	if (ft_strequ(tokens->data, ";"))
 	{
-		if ((flag = exec_separator(shell, &cmd, &tokens)) == -1)
+		flag = exec_separator(shell, &cmd, &tokens);
+		if (flag == -1)
 			return (return_error(to, c, tokens, cmd));
 	}
 	assemble_main_cmd(tokens, cmd, flag);
@@ -95,11 +85,13 @@ void	assemble_tokens_to_cmds(t_shell *shell)
 	push_back(&cmd, init_cmd_struct());
 	while (tokens)
 	{
-		if ((flag = assemble_one_cmd(shell, &tokens, &cmd, flag)) == -1)
+		flag = assemble_one_cmd(shell, &tokens, &cmd, flag);
+		if (flag == -1)
 			break ;
 		flag++;
 		tokens = tokens->next;
 	}
-	(cmd) ? execute_comands(shell, cmd) : NULL;
+	if (cmd)
+		execute_comands(shell, cmd);
 	free_comands(cmd);
 }

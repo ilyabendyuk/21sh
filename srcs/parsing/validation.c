@@ -1,18 +1,6 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   validation.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:22:53 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:22:00 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <minishell.h>
 
-int		validate_redirs(t_queue *args)
+int	validate_redirs(t_queue *args)
 {
 	char	*redir;
 	int		count;
@@ -31,17 +19,17 @@ int		validate_redirs(t_queue *args)
 		{
 			tmp = ft_strndup(redir + count, 2);
 			validation_error(NULL, tmp);
-			(tmp) ? free(tmp) : NULL;
+			ft_free(tmp);
 			return (0);
 		}
 	}
-	if (args->next && !ft_strequ(args->next->data, "|") &&
-					!ft_strequ(args->next->data, ";"))
+	if (args->next && !ft_strequ(args->next->data, "|")
+		&& !ft_strequ(args->next->data, ";"))
 		return (1);
 	return (validation_error(args->next, NULL));
 }
 
-int		validate_tokens(t_queue *args)
+int	validate_tokens(t_queue *args)
 {
 	int		token_count;
 

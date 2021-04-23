@@ -1,20 +1,8 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   parse_token.c                                      :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:22:48 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:22:00 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <minishell.h>
 
 void	ft_skip_sep_cmd(t_shell *shell, char **line)
 {
-	t_queue *tmp;
+	t_queue	*tmp;
 
 	tmp = NULL;
 	if (**line == '<' || **line == '>')
@@ -37,7 +25,7 @@ void	ft_skip_sep_cmd(t_shell *shell, char **line)
 
 char	*parse_shield(char **line)
 {
-	char *shield;
+	char	*shield;
 
 	(*line)++;
 	shield = ft_strndup(*line, 1);
@@ -49,12 +37,13 @@ char	*parse_shield(char **line)
 
 char	*parse_token(t_shell *shell, char *line, t_queue **to)
 {
-	t_queue *tokens;
+	t_queue	*tokens;
 
 	tokens = *to;
 	if (ft_skip_spaces(&line) > 0 || ft_is_sep_cmd(*line))
 	{
-		(tokens) ? push_back(&shell->args, join_queue(tokens)) : NULL;
+		if (tokens)
+			push_back(&shell->args, join_queue(tokens));
 		tokens = NULL;
 		ft_skip_sep_cmd(shell, &line);
 	}
@@ -83,5 +72,6 @@ void	parse_comands(t_shell *shell, char *line)
 	shell->args = NULL;
 	while (*line)
 		line = parse_token(shell, line, &tokens);
-	(tokens) ? push_back(&shell->args, join_queue(tokens)) : NULL;
+	if (tokens)
+		push_back(&shell->args, join_queue(tokens));
 }

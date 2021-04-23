@@ -1,42 +1,47 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: airma <airma@student.21-school.ru>         +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/07/31 13:18:00 by airma             #+#    #+#              #
-#    Updated: 2021/01/14 21:22:00 by airma            ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
+SRC	= 	ft_printf.c \
+		ft_strcmp.c \
+		gets.c \
+		prints.c \
+		processing.c \
+		puts.c \
+		ft_atoi.c
 
-NAME = libftprintf.a
+OBJ =	$(SRC:.c=.o)	
 
-SRCS = ft_strdup.c ft_strlen.c  ft_itoa.c  ft_charjoin.c  from_libft.c \
-       ft_write_char.c ft_write_int.c ft_write_x.c  ft_printf.c \
-	   ft_write_str.c  ft_write_un_int.c ft_write_p.c  \
-	   ft_check_conver.c  ft_turn_to_x.c ft_un_itoa.c
+SRCDIR	= src
+OBJDIR	= obj
+SRCS	= $(addprefix $(SRCDIR)/, $(SRC))
+OBJS	= $(addprefix $(OBJDIR)/, $(OBJ))
 
-CC	= gcc -O3
-OBJ = $(SRCS:.c=.o)
+NAME	= libftprintf.a
 
-INCLUDES= ft_printf.h
+.PHONY:		all clean fclean re
 
 all: $(NAME)
 
-$(NAME): $(OBJ)
-	/usr/bin/ar rc $(NAME) $(OBJ)
+INCDIR = ./includes/
+
+INCLUDES =	ft_pft.h\
+			ft_printf.h
+
+HEADERS		=	$(addprefix $(INCDIR),$(INCLUDES))
+
+DEPS		= 	$(HEADERS) Makefile
+
+$(NAME): $(OBJDIR) $(OBJS)
+	/usr/bin/ar rc $(NAME) $(OBJS)
 	/usr/bin/ranlib $(NAME)
 
-%.o: %.c $(INCLUDES)
-	/usr/bin/gcc -Wall -Wextra -Werror -c $< -o $@
+$(OBJDIR):
+	/bin/mkdir -p $(OBJDIR)
+
+$(OBJDIR)/%.o: $(SRCDIR)/%.c $(DEPS)
+	/usr/bin/gcc -c -MD -I $(INCDIR) -Wall -Wextra -Werror $< -o $@
 
 clean:
-	/bin/rm -rf $(OBJ)
+	/bin/rm -rf $(OBJDIR)
 
 fclean: clean
 	/bin/rm -f $(NAME)
 
 re: fclean all
-
-.PHONY: clean fclean all re

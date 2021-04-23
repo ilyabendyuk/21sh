@@ -1,18 +1,6 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_itoa.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:23:22 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:22:00 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <minishell.h>
 
-int		len_int(long nb)
+int	len_int(long nb)
 {
 	int		len;
 
@@ -42,7 +30,7 @@ char	*ft_itoa_sh(int nb)
 	i = len_int(n);
 	if (n == 0)
 		return (ft_strdup("0\0"));
-	res = (char*)ft_malloc(sizeof(char) * (i + 1));
+	res = (char *)ft_malloc(sizeof(char) * (i + 1));
 	res[i--] = '\0';
 	if (n < 0)
 	{

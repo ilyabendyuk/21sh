@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   get_path.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:22:57 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:37:58 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <minishell.h>
 
 char	*join_decreased_path(char *pwd, char *path, int l)
@@ -31,9 +19,8 @@ char	*join_decreased_path(char *pwd, char *path, int l)
 			return (ft_strjoin(ft_strndup(pwd, save + 1), ft_strdup(path + l)));
 		len_pwd--;
 	}
-	if (flag_path != 0 ||
-		((path[l] == '.' && path[l + 1] == '.'
-						&& path[l + 2] != '/')))
+	if (flag_path != 0 || ((path[l] == '.' && path[l + 1] == '.'
+				&& path[l + 2] != '/')))
 		return (NULL);
 	return (ft_strjoin(ft_strndup(pwd, save + 1), ft_strdup(path + l)));
 }
@@ -43,7 +30,8 @@ char	*get_relative_path(char *path)
 	char	*pwd;
 	char	*res_path;
 
-	if (!(pwd = getcwd(NULL, 10)))
+	pwd = getcwd(NULL, 10);
+	if (!pwd)
 		return (NULL);
 	if (path[0] == '.' && path[1] == '.')
 		res_path = join_decreased_path(pwd, path, count_decrease_lvl(path));
@@ -51,8 +39,8 @@ char	*get_relative_path(char *path)
 		res_path = ft_strjoin(pwd, path + 1);
 	else
 		res_path = ft_strjoin_tripple(pwd, "/", path);
-	(pwd) ? free(pwd) : NULL;
-	(path) ? free(path) : NULL;
+	ft_free(pwd);
+	ft_free(path);
 	return (res_path);
 }
 
@@ -64,30 +52,31 @@ char	*get_env_path(t_queue *env, char *cmd)
 
 	home = ft_strdup(get_env_var(env, ft_strdup("PATH")));
 	path = ft_split(home, ':');
-	(home) ? free(home) : NULL;
+	ft_free(home);
 	i = 0;
 	while (path && path[i])
 	{
 		home = ft_strjoin_tripple(path[i], "/", cmd);
 		if (open(home, O_RDONLY) != -1)
 		{
-			(cmd) ? free(cmd) : NULL;
+			ft_free(cmd);
 			free_2d_array(path);
 			return (home);
 		}
-		(home) ? free(home) : NULL;
+		ft_free(home);
 		i++;
 	}
 	free_2d_array(path);
 	return (cmd);
 }
 
-int		check_path(char *path, int path_flag, int redir_flag)
+int	check_path(char *path, int path_flag, int redir_flag)
 {
 	int			fd;
 	struct stat	st;
 
-	if ((fd = open(path, O_RDONLY)) == -1)
+	fd = open(path, O_RDONLY);
+	if (fd == -1)
 	{
 		if (redir_flag == 1)
 			return (1);
@@ -107,7 +96,7 @@ int		check_path(char *path, int path_flag, int redir_flag)
 	return (PATH_ERR);
 }
 
-int		get_path(t_queue *env, char **cmd, int redir_flag)
+int	get_path(t_queue *env, char **cmd, int redir_flag)
 {
 	int		path_flag;
 

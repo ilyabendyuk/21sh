@@ -8,242 +8,242 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/klargo/Desktop/21sh/cmake-build-debug"/>
+				<Option working_dir="/Users/ilabenduk/Desktop/21sh/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/klargo/Desktop/21sh/cmake-build-debug"/>
+				<Option working_dir="/Users/ilabenduk/Desktop/21sh/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/klargo/Desktop/21sh/cmake-build-debug"/>
+				<Option working_dir="/Users/ilabenduk/Desktop/21sh/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled">
-				<Option output="/Users/klargo/Desktop/21sh/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/klargo/Desktop/21sh/cmake-build-debug"/>
+				<Option output="/Users/ilabenduk/Desktop/21sh/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilabenduk/Desktop/21sh/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/klargo/Desktop/21sh/../ft_printf/includes"/>
-					<Add directory="/Users/klargo/Desktop/21sh/headers"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Users/ilabenduk/Desktop/21sh/../ft_printf/includes"/>
+					<Add directory="/Users/ilabenduk/Desktop/21sh/headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled/fast">
-				<Option output="/Users/klargo/Desktop/21sh/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/klargo/Desktop/21sh/cmake-build-debug"/>
+				<Option output="/Users/ilabenduk/Desktop/21sh/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilabenduk/Desktop/21sh/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/klargo/Desktop/21sh/../ft_printf/includes"/>
-					<Add directory="/Users/klargo/Desktop/21sh/headers"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Users/ilabenduk/Desktop/21sh/../ft_printf/includes"/>
+					<Add directory="/Users/ilabenduk/Desktop/21sh/headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/klargo/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ilabenduk/Desktop/21sh/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/klargo/Desktop/21sh/headers/get_next_line.h">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/headers/get_next_line.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/headers/minishell.h">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/headers/minishell.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/headers/structs.h">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/headers/structs.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/builtins/bltn_cd.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/builtins/bltn_cd.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/builtins/bltn_echo.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/builtins/bltn_echo.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/builtins/bltn_exit.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/builtins/bltn_exit.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/builtins/bltn_export.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/builtins/bltn_export.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/builtins/bltn_pwd.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/builtins/bltn_pwd.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/builtins/bltn_unset.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/builtins/bltn_unset.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/env/assemble_env.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/env/assemble_env.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/env/create_env_instance.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/env/create_env_instance.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/env/get_env_var.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/env/get_env_var.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/env/init_env.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/env/init_env.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/env/parse_env_var.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/env/parse_env_var.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/env/print_env.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/env/print_env.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/env/update_env.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/env/update_env.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/exec/check_redirs.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/exec/check_redirs.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/exec/exec.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/exec/exec.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/exec/exec_loop.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/exec/exec_loop.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/main/main.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/main/main.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/parsing/assemble_tokens_to_cmds.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/parsing/assemble_tokens_to_cmds.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/parsing/check_redir.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/parsing/check_redir.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/parsing/parse_quotes.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/parsing/parse_quotes.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/parsing/parse_token.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/parsing/parse_token.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/parsing/parse_utils.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/parsing/parse_utils.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/parsing/push.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/parsing/push.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/parsing/validation.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/parsing/validation.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/path/get_path.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/path/get_path.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/path/path_utils.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/path/path_utils.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/queue/join_queue.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/queue/join_queue.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/queue/pop.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/queue/pop.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/queue/pop_front.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/queue/pop_front.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/queue/push_back.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/queue/push_back.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/errors.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/errors.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/free.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/free.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_is_export.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_is_export.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_is_sep_cmd.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_is_sep_cmd.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_isspace.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_isspace.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_itoa.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_itoa.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_malloc.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_malloc.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_skip_spaces.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_skip_spaces.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_split.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_split.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_strcmp.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_strcmp.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_strdup.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_strdup.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_strequ.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_strequ.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_strjoin_tripple.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_strjoin_tripple.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/ft_strlen_shell.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/ft_strlen_shell.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/get_next_line.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/get_next_line.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/get_next_line_utils.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/get_next_line_utils.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/init.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/init.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/show_promt.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/show_promt.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/signals.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/signals.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/srcs/utils/two_d_array.c">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/srcs/utils/two_d_array.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/klargo/Desktop/21sh/CMakeLists.txt">
+		<Unit filename="/Users/ilabenduk/Desktop/21sh/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -12,7 +12,7 @@
 
 #include <minishell.h>
 
-int		ft_strlen_shell(const char *str)
+int	ft_strlen_shell(const char *str)
 {
 	int	i;
 

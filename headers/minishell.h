@@ -13,7 +13,7 @@
 #ifndef MINISHELL_H
 # define MINISHELL_H
 # include <get_next_line.h>
-# include "../ft_printf/ft_printf.h"
+# include "../ft_printf/includes/ft_printf.h"
 # include <structs.h>
 # include <unistd.h>
 # include <errno.h>
@@ -105,6 +105,6 @@ t_queue		*push_pipe(t_queue *cmd, t_queue *tokens);
 int			check_redir(char *token);
 int			ft_is_export(char c);
 int			return_error(t_queue **c1, t_queue **q1, t_queue *c, t_queue *q);
-void 		*ft_free(void *ptr);
+void		*ft_free(void *ptr);
 
 #endif

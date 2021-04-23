@@ -1,18 +1,6 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   path_utils.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: airma <airma@student.42.fr>                +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/13 22:22:58 by airma             #+#    #+#             */
-/*   Updated: 2021/01/14 21:35:44 by airma            ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <minishell.h>
 
-int		count_decrease_lvl(char *path)
+int	count_decrease_lvl(char *path)
 {
 	int		i;
 
@@ -52,7 +40,7 @@ char	*get_redir_path(char *name)
 	pwd = NULL;
 	pwd = getcwd(NULL, 0);
 	res = ft_strjoin_tripple(pwd, "/", name);
-	(pwd) ? free(pwd) : NULL;
-	(name) ? free(name) : NULL;
+	ft_free(pwd);
+	ft_free(name);
 	return (res);
 }
