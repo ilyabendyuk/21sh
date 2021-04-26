@@ -1,5 +1,83 @@
 #include <minishell.h>
 #include <get_next_line.h>
+#include <stdio.h>
+
+int check_double(char *str, int i)
+{
+	i++;
+	while(str[i])
+	{
+		if (str[i] == '\\')
+		{
+			i += 2;
+			continue ;
+		}
+		if (str[i] == '"')
+			return (i);
+		i++;
+	}
+	return (-1);
+}
+
+int check_single(char *str, int i)
+{
+	i++;
+	while(str[i])
+	{
+		if (str[i] == '\'')
+			return (i);
+		i++;
+	}
+	return (-1);
+}
+
+int	check_quotes(char *str)
+{
+	int		i;
+
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] == '\\')
+		{
+			i += 2;
+			continue;
+		}
+		if (str[i] == '\'')
+		{
+			i = check_single(str, i);
+			if (i == -1)
+				return (0);
+		}
+		if (str[i] == '"')
+		{
+			i = check_double(str, i);
+			if (i == -1)
+				return (0);
+		}
+		i++;
+	}
+	return (1);
+}
+
+void 	check_multiline(char **line)
+{
+	char *acct_line;
+	char *tmp_line;
+	char *prev_line;
+
+	tmp_line = 0;
+	acct_line = *line;
+	while(!check_quotes(acct_line))
+	{
+		get_next_line(0, &tmp_line);
+		prev_line = ft_strjoin_tripple(acct_line, "\n", tmp_line);
+		tmp_line = ft_free(tmp_line);
+		acct_line = ft_free(acct_line);
+		acct_line = prev_line;
+	}
+	*line = acct_line;
+}
 
 void	parse_and_exec(t_shell *shell, char *line)
 {
@@ -8,6 +86,8 @@ void	parse_and_exec(t_shell *shell, char *line)
 	ret = get_next_line(0, &line);
 	if (ret > 0)
 	{
+		check_multiline(&line);
+		//termcaps
 		parse_comands(shell, line);
 		if (validate_tokens(shell->args) == 0)
 		{

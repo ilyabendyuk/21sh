@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/klargo/Desktop/21sh-1
+CMAKE_SOURCE_DIR = /Users/ilabenduk/Desktop/21shh
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/klargo/Desktop/21sh-1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ilabenduk/Desktop/21shh/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/klargo/Desktop/21sh-1/cmake-build-debug/CMakeFiles /Users/klargo/Desktop/21sh-1/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ilabenduk/Desktop/21shh/cmake-build-debug/CMakeFiles /Users/ilabenduk/Desktop/21shh/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/klargo/Desktop/21sh-1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ilabenduk/Desktop/21shh/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -223,33 +223,6 @@ srcs/builtins/bltn_exit.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.s
 .PHONY : srcs/builtins/bltn_exit.c.s
 
-srcs/builtins/bltn_export.o: srcs/builtins/bltn_export.c.o
-
-.PHONY : srcs/builtins/bltn_export.o
-
-# target to build an object file
-srcs/builtins/bltn_export.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/srcs/builtins/bltn_export.c.o
-.PHONY : srcs/builtins/bltn_export.c.o
-
-srcs/builtins/bltn_export.i: srcs/builtins/bltn_export.c.i
-
-.PHONY : srcs/builtins/bltn_export.i
-
-# target to preprocess a source file
-srcs/builtins/bltn_export.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/srcs/builtins/bltn_export.c.i
-.PHONY : srcs/builtins/bltn_export.c.i
-
-srcs/builtins/bltn_export.s: srcs/builtins/bltn_export.c.s
-
-.PHONY : srcs/builtins/bltn_export.s
-
-# target to generate assembly for a file
-srcs/builtins/bltn_export.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/srcs/builtins/bltn_export.c.s
-.PHONY : srcs/builtins/bltn_export.c.s
-
 srcs/builtins/bltn_pwd.o: srcs/builtins/bltn_pwd.c.o
 
 .PHONY : srcs/builtins/bltn_pwd.o
@@ -276,6 +249,33 @@ srcs/builtins/bltn_pwd.s: srcs/builtins/bltn_pwd.c.s
 srcs/builtins/bltn_pwd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.s
 .PHONY : srcs/builtins/bltn_pwd.c.s
+
+srcs/builtins/bltn_setenv.o: srcs/builtins/bltn_setenv.c.o
+
+.PHONY : srcs/builtins/bltn_setenv.o
+
+# target to build an object file
+srcs/builtins/bltn_setenv.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.o
+.PHONY : srcs/builtins/bltn_setenv.c.o
+
+srcs/builtins/bltn_setenv.i: srcs/builtins/bltn_setenv.c.i
+
+.PHONY : srcs/builtins/bltn_setenv.i
+
+# target to preprocess a source file
+srcs/builtins/bltn_setenv.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.i
+.PHONY : srcs/builtins/bltn_setenv.c.i
+
+srcs/builtins/bltn_setenv.s: srcs/builtins/bltn_setenv.c.s
+
+.PHONY : srcs/builtins/bltn_setenv.s
+
+# target to generate assembly for a file
+srcs/builtins/bltn_setenv.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.s
+.PHONY : srcs/builtins/bltn_setenv.c.s
 
 srcs/builtins/bltn_unset.o: srcs/builtins/bltn_unset.c.o
 
@@ -1510,12 +1510,12 @@ help:
 	@echo "... srcs/builtins/bltn_exit.o"
 	@echo "... srcs/builtins/bltn_exit.i"
 	@echo "... srcs/builtins/bltn_exit.s"
-	@echo "... srcs/builtins/bltn_export.o"
-	@echo "... srcs/builtins/bltn_export.i"
-	@echo "... srcs/builtins/bltn_export.s"
 	@echo "... srcs/builtins/bltn_pwd.o"
 	@echo "... srcs/builtins/bltn_pwd.i"
 	@echo "... srcs/builtins/bltn_pwd.s"
+	@echo "... srcs/builtins/bltn_setenv.o"
+	@echo "... srcs/builtins/bltn_setenv.i"
+	@echo "... srcs/builtins/bltn_setenv.s"
 	@echo "... srcs/builtins/bltn_unset.o"
 	@echo "... srcs/builtins/bltn_unset.i"
 	@echo "... srcs/builtins/bltn_unset.s"

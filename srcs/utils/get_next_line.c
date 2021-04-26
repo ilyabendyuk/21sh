@@ -1,5 +1,6 @@
 #include <get_next_line.h>
 #include <minishell.h>
+#include <stdio.h>
 
 static int	check_remember(char **remember, char **line)
 {
