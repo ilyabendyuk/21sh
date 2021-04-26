@@ -70,6 +70,7 @@ void 	check_multiline(char **line)
 	acct_line = *line;
 	while(!check_quotes(acct_line))
 	{
+		ft_printf("> ");
 		get_next_line(0, &tmp_line);
 		prev_line = ft_strjoin_tripple(acct_line, "\n", tmp_line);
 		tmp_line = ft_free(tmp_line);
@@ -86,6 +87,7 @@ void	parse_and_exec(t_shell *shell, char *line)
 	ret = get_next_line(0, &line);
 	if (ret > 0)
 	{
+
 		check_multiline(&line);
 		//termcaps
 		parse_comands(shell, line);
