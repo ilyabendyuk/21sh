@@ -4,6 +4,7 @@ void	push_redir(t_queue *cmd, t_queue **tokens)
 {
 	t_redir	*redir;
 
+	ft_printf("{%s %s %s}\n", (*tokens)->prev->data, (*tokens)->data, (*tokens)->next->data);
 	redir = (t_redir *)ft_malloc(sizeof(t_redir));
 	redir->id = ft_strdup((*tokens)->data);
 	redir->fname = ft_strdup((*tokens)->next->data);

@@ -1,5 +1,27 @@
 #include <minishell.h>
 
+static char	*ft_strstr(char *str, char *to_find)
+{
+	int i;
+	int j;
+
+	i = 0;
+	if (to_find[0] == '\0')
+		return (str);
+	while (str[i] != '\0')
+	{
+		j = 0;
+		while (str[i + j] != '\0' && str[i + j] == to_find[j])
+		{
+			if (to_find[j + 1] == '\0')
+				return (&str[i]);
+			++j;
+		}
+		++i;
+	}
+	return (0);
+}
+
 void	ft_skip_sep_cmd(t_shell *shell, char **line)
 {
 	t_queue	*tmp;
@@ -57,6 +79,7 @@ char	*parse_token(t_shell *shell, char *line, t_queue **to)
 		push_back(&tokens, parse_double_quote(shell, &line, NULL));
 	else if (*line != '\0' && !ft_isspace(*line) && !ft_is_sep_cmd(*line))
 	{
+		if (ft_strstr(*line))
 		push_back(&tokens, ft_strndup(line, 1));
 		line++;
 	}
