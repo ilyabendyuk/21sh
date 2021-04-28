@@ -1,10 +1,31 @@
 #include <minishell.h>
 
+void heredoc(t_shell *shell, char *here) //TODO EOF
+{
+	int		fd[2];
+	char	*line;
+
+	dup2(shell->g_save_in, 0);
+	pipe(fd);
+	line = NULL;
+	while (get_next_line(0, &line))
+	{
+		if (ft_strequ(line, here))
+			break ;
+		write(fd[1], line, ft_strlen_shell(line));
+		write(fd[1], "\n", 1);
+		line = ft_free(line);
+	}
+	line = ft_free(line);
+	close(fd[1]);
+	dup2(fd[0], STDIN_FILENO);
+	close(fd[0]);
+}
+
 int	try_open_redirs(t_shell *shell, t_redir *redir)
 {
 	int	flag;
 
-	flag = get_path(shell->env->head, &(redir->fname), 1);
 	if (redir->id[0] == '<')
 	{
 		if (shell->g_fd_in != -2)
@@ -15,7 +36,10 @@ int	try_open_redirs(t_shell *shell, t_redir *redir)
 		if (shell->g_fd_out != -2)
 			close(shell->g_fd_out);
 	}
-	if (ft_strequ(redir->id, "<<") || ft_strequ(redir->id, "<"))
+	if (ft_strequ(redir->id, "<<"))
+		heredoc(shell, redir->fname);
+	flag = get_path(shell->env->head, &(redir->fname), 1);
+	if (ft_strequ(redir->id, "<"))
 		shell->g_fd_in = open(redir->fname, O_RDONLY);
 	if (ft_strequ(redir->id, ">"))
 		shell->g_fd_out = open(redir->fname, O_TRUNC | O_WRONLY | O_CREAT, S_IRUSR | \

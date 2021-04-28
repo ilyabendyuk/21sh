@@ -89,7 +89,6 @@ void	parse_and_exec(t_shell *shell, char *line)
 	{
 
 		check_multiline(&line);
-		//termcaps
 		parse_comands(shell, line);
 		if (validate_tokens(shell->args) == 0)
 		{
