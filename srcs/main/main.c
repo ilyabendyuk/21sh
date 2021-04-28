@@ -87,7 +87,6 @@ void	parse_and_exec(t_shell *shell, char *line)
 	ret = get_next_line(0, &line);
 	if (ret > 0)
 	{
-
 		check_multiline(&line);
 		parse_comands(shell, line);
 		if (validate_tokens(shell->args) == 0)

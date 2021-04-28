@@ -11,6 +11,7 @@ typedef struct s_redir
 {
 	char				*fname;
 	char				*id;
+	char				*fname2;
 }						t_redir;
 
 typedef struct s_comand

@@ -24,7 +24,7 @@ void	assemble_main_cmd(t_queue *tokens, t_queue *cmd, int flag)
 {
 	if (flag == 0)
 	{
-		if (check_redir(tokens->data))
+		if (check_redir(tokens->data) > 0)
 			((t_comand *)cmd->data)->cmd = ft_strdup("");
 		else
 			((t_comand *)cmd->data)->cmd = ft_strdup(tokens->data);
@@ -38,7 +38,7 @@ void	assemble_redir_and_args(t_queue **to, t_queue **c)
 
 	tokens = *to;
 	cmd = *c;
-	if (check_redir(tokens->data) == 1)
+	if (check_redir(tokens->data) > 0)
 		push_redir(cmd, &tokens);
 	else if (ft_strequ(tokens->data, "|") == 0)
 		push_args(cmd, tokens);

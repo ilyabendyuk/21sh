@@ -16,6 +16,7 @@
 # define PATH_ERR	2
 # define OPEN_ERR	3
 # define MEM_ERROR "MEMORY ERROR"
+# define AGG_ERROR -1
 
 intmax_t	g_prev_err;
 intmax_t	g_err;
@@ -85,6 +86,11 @@ void		push_args(t_queue *cmd, t_queue *token);
 t_queue		*push_pipe(t_queue *cmd, t_queue *tokens);
 int			check_redir(char *token);
 int			ft_is_export(char c);
+int			ft_is_not_redir(char c);
+int 		check_aggro(char *line);
+char		*ft_strstr(char *str, char *to_find);
+long long	ft_atoll(char *str);
+int 		is_number(char c);
 int			return_error(t_queue **c1, t_queue **q1, t_queue *c, t_queue *q);
 void		*ft_free(void *ptr);
 

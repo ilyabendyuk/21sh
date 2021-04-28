@@ -1,6 +1,6 @@
 #include <minishell.h>
 
-static char	*ft_strstr(char *str, char *to_find)
+char	*ft_strstr(char *str, char *to_find)
 {
 	int i;
 	int j;
@@ -27,8 +27,8 @@ int	check_redir(char *token)
 	int	i;
 
 	i = 0;
-	if (ft_strstr(token, "<&") > 0 || ft_strstr(token, ">&") > 0) // TODO check
-		return (1);
+	if (check_aggro(token))
+		return (2);
 	while (token && (*token == '>' || *token == '<'))
 	{
 		i++;

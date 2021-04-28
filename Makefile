@@ -45,7 +45,7 @@ DEPS		= 	$(HEADERS) Makefile
 # COMPILING FLAGS
 
 CC			= gcc -O3
-CFLAGS		= -Wall -Wextra -Werror
+CFLAGS		=
 
 # VARIABLES FOR .C DIRECTORIES
 

@@ -53,7 +53,7 @@ static int	join_line(char **line, char *buf, char **remember)
 
 int	check_eof(char *buff, ssize_t read_buff)
 {
-	if (read_buff == 1 && buff[0] == '\0')
+	if (read_buff == 1 || buff[0] == '\0')
 		return (0);
 	return (-2);
 }
