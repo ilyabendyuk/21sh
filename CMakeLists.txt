@@ -3,10 +3,11 @@ project(untitled)
 
 set(CMAKE_C_STANDARD 99)
 
-set(LIBRARY_PATH ~/Desktop/minishellfinalfin/ft_printf/libftprintf.a)
+set(LIBRARY_PATH ~/Users/chell/Desktop/xueta/ft_printf/libftprintf.a)
 
 
 add_executable(untitled
+        ft_printf/libftprintf.a
         srcs/builtins/bltn_cd.c
         srcs/builtins/bltn_echo.c
         srcs/builtins/bltn_exit.c

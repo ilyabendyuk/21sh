@@ -87,6 +87,7 @@ void	parse_and_exec(t_shell *shell, char *line)
 	ret = get_next_line(0, &line);
 	if (ret > 0)
 	{
+		g_gachi = 1;
 		check_multiline(&line);
 		parse_comands(shell, line);
 		if (validate_tokens(shell->args) == 0)
@@ -106,7 +107,7 @@ void	parse_and_exec(t_shell *shell, char *line)
 		ft_printf("exit\n");
 		exit(g_err);
 	}
-	ft_free(line);
+	line = ft_free(line);
 }
 
 void	minishell(t_shell *shell)
@@ -115,8 +116,10 @@ void	minishell(t_shell *shell)
 
 	line = NULL;
 	show_promt(shell);
+//	g_gachi = 0;
 	while (21)
 	{
+		g_gachi = 0;
 		init_globals();
 		signal(SIGQUIT, &sig_quit);
 		signal(SIGINT, &sig_int);

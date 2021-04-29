@@ -24,6 +24,7 @@ void	push_redir(t_queue *cmd, t_queue **tokens)
 	redir = (t_redir *)ft_malloc(sizeof(t_redir));
 	redir->id = ft_strdup((*tokens)->data);
 	redir->fname = ft_strdup((*tokens)->next->data);
+	redir->fname2 = NULL;
 	push_back(&(((t_comand *)cmd->data)->redir), redir);
 	*tokens = (*tokens)->next;
 }

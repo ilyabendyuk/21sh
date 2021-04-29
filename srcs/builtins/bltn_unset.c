@@ -18,9 +18,9 @@ void	del_env_instanse(t_queue *env, char *arg)
 		if (ft_strequ(arg, inst->name))
 		{
 			pop(&env, inst);
-			ft_free(inst->name);
-			ft_free(inst->value);
-			free(inst);
+			inst->name = ft_free(inst->name);
+			inst->value = ft_free(inst->value);
+			inst = ft_free(inst);
 			return ;
 		}
 		tmp = tmp->next;

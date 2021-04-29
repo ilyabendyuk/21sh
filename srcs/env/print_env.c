@@ -9,7 +9,7 @@ void	print_env(t_queue *env)
 	while (e)
 	{
 		inst = (t_env *)e->data;
-		if (inst->value[0])
+		if (inst && inst->value && inst->name && inst->value[0])
 			ft_printf("%s=%s\n", inst->name, inst->value);
 		e = e->next;
 	}

@@ -23,6 +23,14 @@ intmax_t	g_err;
 pid_t		g_pid;
 int			g_sigint;
 int			g_sigquit;
+int 		g_gachi;
+/*
+ *         	WE ARE FARMERS
+ */
+int 		FERMER_GACHI_EXP(t_queue **queue, void *to_del);
+/*
+ *         	WE END FARM EXP GACHI, THX FOR WATCHING
+ */
 void		*ft_malloc(size_t bytes);
 int			ft_strlen_shell(const char *str);
 char		*ft_strdup(char *src);

@@ -16,6 +16,7 @@ void	free_redirs(t_queue *redir)
 		tmp = (t_redir *)pop_front(&redir);
 		ft_free(tmp->fname);
 		ft_free(tmp->id);
+		ft_free(tmp->fname2);
 		ft_free(tmp);
 	}
 }

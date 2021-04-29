@@ -5,6 +5,8 @@ char	*ft_strchr(const char *str, int ch)
 {
 	char	*str1;
 
+	if (!str)
+		return (0);
 	str1 = (char *)str;
 	while (*str1 != ch)
 	{
