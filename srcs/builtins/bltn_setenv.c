@@ -37,7 +37,8 @@ void	print_env_no_args(t_queue *env)
 	e = sort_2d_array(&e);
 	while (e[i])
 	{
-		ft_printf("declare -x %s\n", e[i]);
+		if(ft_strlen_shell(e[i]) > 1)
+			ft_printf("declare -x %s\n", e[i]);
 		i++;
 	}
 	free_2d_array(e);

@@ -4,7 +4,7 @@ char	*get_env_var(t_queue *envir, char *name)
 {
 	t_queue	*env;
 
-	env = envir->head;
+	env = envir;
 	while (env)
 	{
 		if (ft_strequ(((t_env *)env->data)->name, name))

@@ -1,4 +1,6 @@
 #include <minishell.h>
+#include <errno.h>
+
 int		is_number_str(char *s)
 {
 	while (*s)
@@ -10,7 +12,6 @@ int		is_number_str(char *s)
 	return (1);
 }
 
-#include <stdio.h>
 
 int		ft_aggreg(t_redir *redir, t_shell *shell)
 {
@@ -68,10 +69,8 @@ void heredoc(t_shell *shell, char *here) //TODO EOF
 	close(fd[0]);
 }
 
-int	try_open_redirs(t_shell *shell, t_redir *redir)
+void	check_and_close(t_shell *shell, t_redir *redir)
 {
-	int	flag;
-
 	if (redir->id[0] == '<' && redir->id[1] != '&')
 	{
 		if (shell->g_fd_in != -2)
@@ -82,11 +81,18 @@ int	try_open_redirs(t_shell *shell, t_redir *redir)
 		if (shell->g_fd_out != -2)
 			close(shell->g_fd_out);
 	}
+}
+
+int		try_open_redirs(t_shell *shell, t_redir *redir)
+{
+	int	flag;
+
+	check_and_close(shell, redir);
 	if (ft_strequ(redir->id, "<&") || ft_strequ(redir->id, ">&"))
 		return (ft_aggreg(redir, shell));
 	if (ft_strequ(redir->id, "<<"))
 		heredoc(shell, redir->fname);
-	flag = get_path(shell->env->head, &(redir->fname), 1);
+	flag = get_path(shell->env, &(redir->fname), 1);
 	if (ft_strequ(redir->id, "<"))
 		shell->g_fd_in = open(redir->fname, O_RDONLY);
 	if (ft_strequ(redir->id, ">"))
@@ -106,10 +112,11 @@ void	error_redir(int flag, char *tmp_redir)
 		return ;
 	dir = NULL;
 	dir = opendir(tmp_redir);
-	if (flag == OPEN_ERR)
-		fd_printf(2, "minishell: %s: No such file or directory\n", tmp_redir);
-	else if (dir)
+	access(tmp_redir, 0);
+	if (dir)
 		fd_printf(2, "minishell: %s: Is a directory\n", tmp_redir);
+	else if (errno == ENOENT)
+		fd_printf(2, "minishell: %s: No such file or directory\n", tmp_redir);
 	else
 		fd_printf(2, "minishell: %s: Permission denied\n", tmp_redir);
 	if (dir)

@@ -20,7 +20,7 @@ void	update_env(t_queue **env, char *name, char *val)
 			env_inst = tmp->data;
 			if (ft_strequ(name, env_inst->name))
 			{
-				free(env_inst->value);
+				env_inst->value = ft_free(env_inst->value);
 				env_inst->value = ft_strdup(val);
 			}
 			tmp = tmp->next;

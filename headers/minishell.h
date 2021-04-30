@@ -23,11 +23,12 @@ intmax_t	g_err;
 pid_t		g_pid;
 int			g_sigint;
 int			g_sigquit;
-int 		g_gachi;
+int			g_gachi;
+pid_t		g_pid1;
 /*
  *         	WE ARE FARMERS
  */
-int 		FERMER_GACHI_EXP(t_queue **queue, void *to_del);
+int			FERMER_GACHI_EXP(t_queue **queue, void *to_del);
 /*
  *         	WE END FARM EXP GACHI, THX FOR WATCHING
  */
@@ -76,7 +77,6 @@ void		bltn_setenv(t_queue *env, char **args);
 void		bltn_unsetenv(t_queue *env, char **args);
 int			open_redirs_and_check(t_shell *shell, t_comand *cmd);
 void		handle_exec(t_shell *shell, t_comand *cmd, int exit_flag);
-void		wait_exec(t_shell *shell, t_comand *cmd);
 void		exec_last_cmd(t_shell *shell, t_comand *cmd, int exit_flag);
 void		execute_cmd(t_shell *shell, t_comand *cmd, int exit_flag);
 void		execute_comands(t_shell *shell, t_queue *cmd);
@@ -95,11 +95,12 @@ t_queue		*push_pipe(t_queue *cmd, t_queue *tokens);
 int			check_redir(char *token);
 int			ft_is_export(char c);
 int			ft_is_not_redir(char c);
-int 		check_aggro(char *line);
+int			check_aggro(char *line);
 char		*ft_strstr(char *str, char *to_find);
 long long	ft_atoll(char *str);
-int 		is_number(char c);
+int			is_number(char c);
+t_queue	*get_last_elem(t_queue *queue);
 int			return_error(t_queue **c1, t_queue **q1, t_queue *c, t_queue *q);
 void		*ft_free(void *ptr);
-
+void		wait_exec(t_shell *shell, t_comand *cmd);
 #endif

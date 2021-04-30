@@ -25,8 +25,6 @@ typedef struct s_queue
 {
 	void				*data;
 	struct s_queue		*next;
-	struct s_queue		*tail;
-	struct s_queue		*head;
 	struct s_queue		*prev;
 }						t_queue;
 

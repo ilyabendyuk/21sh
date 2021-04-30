@@ -48,14 +48,14 @@ t_queue	*push_pipe(t_queue *cmd, t_queue *tokens)
 		if (flag == 0)
 		{
 			if (check_redir(tokens->data) > 0)
-				((t_comand *)cmd->tail->data)->cmd = ft_strdup("");
+				((t_comand *)get_last_elem(cmd)->data)->cmd = ft_strdup("");
 			else
-				((t_comand *)cmd->tail->data)->cmd = ft_strdup(tokens->data);
+				((t_comand *)get_last_elem(cmd)->data)->cmd = ft_strdup(tokens->data);
 		}
 		if (check_redir(tokens->data) > 0)
-			push_redir(cmd->tail, &tokens);
+			push_redir(get_last_elem(cmd), &tokens);
 		else
-			push_args(cmd->tail, tokens);
+			push_args(get_last_elem(cmd), tokens);
 		flag++;
 		tokens = tokens->next;
 	}

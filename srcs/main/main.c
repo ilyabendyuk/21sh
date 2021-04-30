@@ -119,8 +119,8 @@ void	minishell(t_shell *shell)
 //	g_gachi = 0;
 	while (21)
 	{
-		g_gachi = 0;
 		init_globals();
+		g_gachi = 0;
 		signal(SIGQUIT, &sig_quit);
 		signal(SIGINT, &sig_int);
 		line = NULL;

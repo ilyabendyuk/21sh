@@ -3,9 +3,9 @@ project(untitled)
 
 set(CMAKE_C_STANDARD 99)
 
-set(LIBRARY_PATH ~/Users/chell/Desktop/xueta/ft_printf/libftprintf.a)
+set(LIBRARY_PATH /Users/klargo/Desktop/2121/ft_printf/libftprintf.a)
 
-
+#LINK_DIRECTORIES(/res)
 add_executable(untitled
         ft_printf/libftprintf.a
         srcs/builtins/bltn_cd.c

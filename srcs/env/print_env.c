@@ -6,11 +6,14 @@ void	print_env(t_queue *env)
 	t_env	*inst;
 
 	e = env;
-	while (e)
+	while (e && ((t_env *)e))
 	{
-		inst = (t_env *)e->data;
-		if (inst && inst->value && inst->name && inst->value[0])
-			ft_printf("%s=%s\n", inst->name, inst->value);
+		if (e->data)
+		{
+			inst = (t_env *) e->data;
+			if (inst && inst->value && inst->name && inst->value[0] && inst->name[0])
+				ft_printf("%s=%s\n", inst->name, inst->value);
+		}
 		e = e->next;
 	}
 }

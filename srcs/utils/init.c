@@ -2,6 +2,7 @@
 
 void	init_globals(void)
 {
+	g_pid1 = 0;
 	g_pid = 0;
 	g_err = 0;
 	g_sigquit = 0;

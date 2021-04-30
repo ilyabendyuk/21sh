@@ -1,22 +1,21 @@
 #include <minishell.h>
-
 void	exec_bin_cmd(t_shell *shell, t_comand *cmd)
 {
 	int		path_flag;
 	char	**env;
 
-	path_flag = get_path(shell->env->head, &(cmd->cmd), 0);
+	path_flag = get_path(shell->env, &(cmd->cmd), 0);
 	if (path_flag == OPEN_ERR)
 		return ;
 	if (path_flag == PATH_ERR)
 		return (path_err(cmd->args[0]));
-	env = assemble_env(shell->env->head);
+	env = assemble_env(shell->env);
 	g_pid = fork();
 	if (g_pid)
 	{
 		signal(SIGINT, &sig_int);
 		signal(SIGQUIT, &sig_quit);
-		waitpid(g_pid, &shell->g_ret, WUNTRACED);
+		waitpid(g_pid, &shell->g_ret, 0);
 		g_err = WEXITSTATUS(shell->g_ret);
 	}
 	else
@@ -40,11 +39,11 @@ void	execute_cmd(t_shell *shell, t_comand *cmd, int exit_flag)
 	else if (ft_strequ(cmd->cmd, "exit"))
 		bltn_exit(cmd, exit_flag);
 	else if (ft_strequ(cmd->cmd, "setenv"))
-		bltn_setenv(shell->env->head, cmd->args);
+		bltn_setenv(shell->env, cmd->args);
 	else if (ft_strequ(cmd->cmd, "env"))
-		print_env(shell->env->head);
+		print_env(shell->env);
 	else if (ft_strequ(cmd->cmd, "unsetenv"))
-		bltn_unsetenv(shell->env->head, cmd->args);
+		bltn_unsetenv(shell->env, cmd->args);
 	else
 		exec_bin_cmd(shell, cmd);
 }
@@ -80,7 +79,7 @@ void	wait_exec(t_shell *shell, t_comand *cmd)
 
 	(void)shell;
 	(void)cmd;
-	waitpid(-1, &err, 0);
+	waitpid(-1, &err, WNOHANG);
 	close(shell->g_pipe[1]);
 	if (shell->g_fd_in == -2)
 		dup2(shell->g_pipe[0], 0);
@@ -94,6 +93,7 @@ void	wait_exec(t_shell *shell, t_comand *cmd)
 
 void	handle_exec(t_shell *shell, t_comand *cmd, int exit_flag)
 {
+//	ft_printf("%s\n", cmd->cmd);
 	close(shell->g_pipe[0]);
 	if (shell->g_fd_out == -2)
 		dup2(shell->g_pipe[1], 1);

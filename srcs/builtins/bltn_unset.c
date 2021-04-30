@@ -21,6 +21,7 @@ void	del_env_instanse(t_queue *env, char *arg)
 			inst->name = ft_free(inst->name);
 			inst->value = ft_free(inst->value);
 			inst = ft_free(inst);
+			inst = NULL;
 			return ;
 		}
 		tmp = tmp->next;
@@ -34,7 +35,7 @@ void	bltn_unsetenv(t_queue *env, char **args)
 	i = 1;
 	while (args[i])
 	{
-		del_env_instanse(env->head, args[i]);
+		del_env_instanse(env, args[i]);
 		i++;
 	}
 }

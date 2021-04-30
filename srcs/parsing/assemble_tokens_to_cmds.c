@@ -80,7 +80,7 @@ void	assemble_tokens_to_cmds(t_shell *shell)
 	int			flag;
 
 	flag = 0;
-	tokens = shell->args->head;
+	tokens = shell->args;
 	cmd = NULL;
 	push_back(&cmd, init_cmd_struct());
 	while (tokens)

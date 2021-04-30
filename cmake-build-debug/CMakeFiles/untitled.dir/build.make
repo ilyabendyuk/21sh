@@ -62,10 +62,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chell/Desktop/xueta
+CMAKE_SOURCE_DIR = /Users/klargo/Desktop/2121
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chell/Desktop/xueta/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/klargo/Desktop/2121/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -78,653 +78,653 @@ include CMakeFiles/untitled.dir/flags.make
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.o: ../srcs/builtins/bltn_cd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.o -c /Users/chell/Desktop/xueta/srcs/builtins/bltn_cd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.o -c /Users/klargo/Desktop/2121/srcs/builtins/bltn_cd.c
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/builtins/bltn_cd.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/builtins/bltn_cd.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.i
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/builtins/bltn_cd.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/builtins/bltn_cd.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_cd.c.s
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.o: ../srcs/builtins/bltn_echo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.o -c /Users/chell/Desktop/xueta/srcs/builtins/bltn_echo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.o -c /Users/klargo/Desktop/2121/srcs/builtins/bltn_echo.c
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/builtins/bltn_echo.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/builtins/bltn_echo.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.i
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/builtins/bltn_echo.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/builtins/bltn_echo.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_echo.c.s
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.o: ../srcs/builtins/bltn_exit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.o -c /Users/chell/Desktop/xueta/srcs/builtins/bltn_exit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.o -c /Users/klargo/Desktop/2121/srcs/builtins/bltn_exit.c
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/builtins/bltn_exit.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/builtins/bltn_exit.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.i
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/builtins/bltn_exit.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/builtins/bltn_exit.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_exit.c.s
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.o: ../srcs/builtins/bltn_setenv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.o -c /Users/chell/Desktop/xueta/srcs/builtins/bltn_setenv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.o -c /Users/klargo/Desktop/2121/srcs/builtins/bltn_setenv.c
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/builtins/bltn_setenv.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/builtins/bltn_setenv.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.i
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/builtins/bltn_setenv.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/builtins/bltn_setenv.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_setenv.c.s
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.o: ../srcs/builtins/bltn_pwd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.o -c /Users/chell/Desktop/xueta/srcs/builtins/bltn_pwd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.o -c /Users/klargo/Desktop/2121/srcs/builtins/bltn_pwd.c
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/builtins/bltn_pwd.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/builtins/bltn_pwd.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.i
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/builtins/bltn_pwd.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/builtins/bltn_pwd.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_pwd.c.s
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.o: ../srcs/builtins/bltn_unset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.o -c /Users/chell/Desktop/xueta/srcs/builtins/bltn_unset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.o -c /Users/klargo/Desktop/2121/srcs/builtins/bltn_unset.c
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/builtins/bltn_unset.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/builtins/bltn_unset.c > CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.i
 
 CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/builtins/bltn_unset.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/builtins/bltn_unset.c -o CMakeFiles/untitled.dir/srcs/builtins/bltn_unset.c.s
 
 CMakeFiles/untitled.dir/srcs/env/assemble_env.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/env/assemble_env.c.o: ../srcs/env/assemble_env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/untitled.dir/srcs/env/assemble_env.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/assemble_env.c.o -c /Users/chell/Desktop/xueta/srcs/env/assemble_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/untitled.dir/srcs/env/assemble_env.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/assemble_env.c.o -c /Users/klargo/Desktop/2121/srcs/env/assemble_env.c
 
 CMakeFiles/untitled.dir/srcs/env/assemble_env.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/env/assemble_env.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/env/assemble_env.c > CMakeFiles/untitled.dir/srcs/env/assemble_env.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/env/assemble_env.c > CMakeFiles/untitled.dir/srcs/env/assemble_env.c.i
 
 CMakeFiles/untitled.dir/srcs/env/assemble_env.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/env/assemble_env.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/env/assemble_env.c -o CMakeFiles/untitled.dir/srcs/env/assemble_env.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/env/assemble_env.c -o CMakeFiles/untitled.dir/srcs/env/assemble_env.c.s
 
 CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.o: ../srcs/env/create_env_instance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.o -c /Users/chell/Desktop/xueta/srcs/env/create_env_instance.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.o -c /Users/klargo/Desktop/2121/srcs/env/create_env_instance.c
 
 CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/env/create_env_instance.c > CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/env/create_env_instance.c > CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.i
 
 CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/env/create_env_instance.c -o CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/env/create_env_instance.c -o CMakeFiles/untitled.dir/srcs/env/create_env_instance.c.s
 
 CMakeFiles/untitled.dir/srcs/env/get_env_var.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/env/get_env_var.c.o: ../srcs/env/get_env_var.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/untitled.dir/srcs/env/get_env_var.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/get_env_var.c.o -c /Users/chell/Desktop/xueta/srcs/env/get_env_var.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/untitled.dir/srcs/env/get_env_var.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/get_env_var.c.o -c /Users/klargo/Desktop/2121/srcs/env/get_env_var.c
 
 CMakeFiles/untitled.dir/srcs/env/get_env_var.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/env/get_env_var.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/env/get_env_var.c > CMakeFiles/untitled.dir/srcs/env/get_env_var.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/env/get_env_var.c > CMakeFiles/untitled.dir/srcs/env/get_env_var.c.i
 
 CMakeFiles/untitled.dir/srcs/env/get_env_var.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/env/get_env_var.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/env/get_env_var.c -o CMakeFiles/untitled.dir/srcs/env/get_env_var.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/env/get_env_var.c -o CMakeFiles/untitled.dir/srcs/env/get_env_var.c.s
 
 CMakeFiles/untitled.dir/srcs/env/init_env.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/env/init_env.c.o: ../srcs/env/init_env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/untitled.dir/srcs/env/init_env.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/init_env.c.o -c /Users/chell/Desktop/xueta/srcs/env/init_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/untitled.dir/srcs/env/init_env.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/init_env.c.o -c /Users/klargo/Desktop/2121/srcs/env/init_env.c
 
 CMakeFiles/untitled.dir/srcs/env/init_env.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/env/init_env.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/env/init_env.c > CMakeFiles/untitled.dir/srcs/env/init_env.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/env/init_env.c > CMakeFiles/untitled.dir/srcs/env/init_env.c.i
 
 CMakeFiles/untitled.dir/srcs/env/init_env.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/env/init_env.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/env/init_env.c -o CMakeFiles/untitled.dir/srcs/env/init_env.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/env/init_env.c -o CMakeFiles/untitled.dir/srcs/env/init_env.c.s
 
 CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.o: ../srcs/env/parse_env_var.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.o -c /Users/chell/Desktop/xueta/srcs/env/parse_env_var.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.o -c /Users/klargo/Desktop/2121/srcs/env/parse_env_var.c
 
 CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/env/parse_env_var.c > CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/env/parse_env_var.c > CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.i
 
 CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/env/parse_env_var.c -o CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/env/parse_env_var.c -o CMakeFiles/untitled.dir/srcs/env/parse_env_var.c.s
 
 CMakeFiles/untitled.dir/srcs/env/print_env.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/env/print_env.c.o: ../srcs/env/print_env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/untitled.dir/srcs/env/print_env.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/print_env.c.o -c /Users/chell/Desktop/xueta/srcs/env/print_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/untitled.dir/srcs/env/print_env.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/print_env.c.o -c /Users/klargo/Desktop/2121/srcs/env/print_env.c
 
 CMakeFiles/untitled.dir/srcs/env/print_env.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/env/print_env.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/env/print_env.c > CMakeFiles/untitled.dir/srcs/env/print_env.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/env/print_env.c > CMakeFiles/untitled.dir/srcs/env/print_env.c.i
 
 CMakeFiles/untitled.dir/srcs/env/print_env.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/env/print_env.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/env/print_env.c -o CMakeFiles/untitled.dir/srcs/env/print_env.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/env/print_env.c -o CMakeFiles/untitled.dir/srcs/env/print_env.c.s
 
 CMakeFiles/untitled.dir/srcs/env/update_env.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/env/update_env.c.o: ../srcs/env/update_env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/untitled.dir/srcs/env/update_env.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/update_env.c.o -c /Users/chell/Desktop/xueta/srcs/env/update_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/untitled.dir/srcs/env/update_env.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/env/update_env.c.o -c /Users/klargo/Desktop/2121/srcs/env/update_env.c
 
 CMakeFiles/untitled.dir/srcs/env/update_env.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/env/update_env.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/env/update_env.c > CMakeFiles/untitled.dir/srcs/env/update_env.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/env/update_env.c > CMakeFiles/untitled.dir/srcs/env/update_env.c.i
 
 CMakeFiles/untitled.dir/srcs/env/update_env.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/env/update_env.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/env/update_env.c -o CMakeFiles/untitled.dir/srcs/env/update_env.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/env/update_env.c -o CMakeFiles/untitled.dir/srcs/env/update_env.c.s
 
 CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.o: ../srcs/exec/check_redirs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.o -c /Users/chell/Desktop/xueta/srcs/exec/check_redirs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.o -c /Users/klargo/Desktop/2121/srcs/exec/check_redirs.c
 
 CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/exec/check_redirs.c > CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/exec/check_redirs.c > CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.i
 
 CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/exec/check_redirs.c -o CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/exec/check_redirs.c -o CMakeFiles/untitled.dir/srcs/exec/check_redirs.c.s
 
 CMakeFiles/untitled.dir/srcs/exec/exec.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/exec/exec.c.o: ../srcs/exec/exec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/untitled.dir/srcs/exec/exec.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/exec/exec.c.o -c /Users/chell/Desktop/xueta/srcs/exec/exec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/untitled.dir/srcs/exec/exec.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/exec/exec.c.o -c /Users/klargo/Desktop/2121/srcs/exec/exec.c
 
 CMakeFiles/untitled.dir/srcs/exec/exec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/exec/exec.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/exec/exec.c > CMakeFiles/untitled.dir/srcs/exec/exec.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/exec/exec.c > CMakeFiles/untitled.dir/srcs/exec/exec.c.i
 
 CMakeFiles/untitled.dir/srcs/exec/exec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/exec/exec.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/exec/exec.c -o CMakeFiles/untitled.dir/srcs/exec/exec.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/exec/exec.c -o CMakeFiles/untitled.dir/srcs/exec/exec.c.s
 
 CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.o: ../srcs/exec/exec_loop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.o -c /Users/chell/Desktop/xueta/srcs/exec/exec_loop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.o -c /Users/klargo/Desktop/2121/srcs/exec/exec_loop.c
 
 CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/exec/exec_loop.c > CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/exec/exec_loop.c > CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.i
 
 CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/exec/exec_loop.c -o CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/exec/exec_loop.c -o CMakeFiles/untitled.dir/srcs/exec/exec_loop.c.s
 
 CMakeFiles/untitled.dir/srcs/main/main.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/main/main.c.o: ../srcs/main/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/untitled.dir/srcs/main/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/main/main.c.o -c /Users/chell/Desktop/xueta/srcs/main/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/untitled.dir/srcs/main/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/main/main.c.o -c /Users/klargo/Desktop/2121/srcs/main/main.c
 
 CMakeFiles/untitled.dir/srcs/main/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/main/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/main/main.c > CMakeFiles/untitled.dir/srcs/main/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/main/main.c > CMakeFiles/untitled.dir/srcs/main/main.c.i
 
 CMakeFiles/untitled.dir/srcs/main/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/main/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/main/main.c -o CMakeFiles/untitled.dir/srcs/main/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/main/main.c -o CMakeFiles/untitled.dir/srcs/main/main.c.s
 
 CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.o: ../srcs/parsing/assemble_tokens_to_cmds.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.o -c /Users/chell/Desktop/xueta/srcs/parsing/assemble_tokens_to_cmds.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.o -c /Users/klargo/Desktop/2121/srcs/parsing/assemble_tokens_to_cmds.c
 
 CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/parsing/assemble_tokens_to_cmds.c > CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/parsing/assemble_tokens_to_cmds.c > CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.i
 
 CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/parsing/assemble_tokens_to_cmds.c -o CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/parsing/assemble_tokens_to_cmds.c -o CMakeFiles/untitled.dir/srcs/parsing/assemble_tokens_to_cmds.c.s
 
 CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.o: ../srcs/parsing/check_redir.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.o -c /Users/chell/Desktop/xueta/srcs/parsing/check_redir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.o -c /Users/klargo/Desktop/2121/srcs/parsing/check_redir.c
 
 CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/parsing/check_redir.c > CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/parsing/check_redir.c > CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.i
 
 CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/parsing/check_redir.c -o CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/parsing/check_redir.c -o CMakeFiles/untitled.dir/srcs/parsing/check_redir.c.s
 
 CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.o: ../srcs/parsing/parse_quotes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.o -c /Users/chell/Desktop/xueta/srcs/parsing/parse_quotes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.o -c /Users/klargo/Desktop/2121/srcs/parsing/parse_quotes.c
 
 CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/parsing/parse_quotes.c > CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/parsing/parse_quotes.c > CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.i
 
 CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/parsing/parse_quotes.c -o CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/parsing/parse_quotes.c -o CMakeFiles/untitled.dir/srcs/parsing/parse_quotes.c.s
 
 CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.o: ../srcs/parsing/parse_token.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.o -c /Users/chell/Desktop/xueta/srcs/parsing/parse_token.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.o -c /Users/klargo/Desktop/2121/srcs/parsing/parse_token.c
 
 CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/parsing/parse_token.c > CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/parsing/parse_token.c > CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.i
 
 CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/parsing/parse_token.c -o CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/parsing/parse_token.c -o CMakeFiles/untitled.dir/srcs/parsing/parse_token.c.s
 
 CMakeFiles/untitled.dir/srcs/parsing/push.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/parsing/push.c.o: ../srcs/parsing/push.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/untitled.dir/srcs/parsing/push.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/push.c.o -c /Users/chell/Desktop/xueta/srcs/parsing/push.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/untitled.dir/srcs/parsing/push.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/push.c.o -c /Users/klargo/Desktop/2121/srcs/parsing/push.c
 
 CMakeFiles/untitled.dir/srcs/parsing/push.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/parsing/push.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/parsing/push.c > CMakeFiles/untitled.dir/srcs/parsing/push.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/parsing/push.c > CMakeFiles/untitled.dir/srcs/parsing/push.c.i
 
 CMakeFiles/untitled.dir/srcs/parsing/push.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/parsing/push.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/parsing/push.c -o CMakeFiles/untitled.dir/srcs/parsing/push.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/parsing/push.c -o CMakeFiles/untitled.dir/srcs/parsing/push.c.s
 
 CMakeFiles/untitled.dir/srcs/parsing/validation.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/parsing/validation.c.o: ../srcs/parsing/validation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/untitled.dir/srcs/parsing/validation.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/validation.c.o -c /Users/chell/Desktop/xueta/srcs/parsing/validation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/untitled.dir/srcs/parsing/validation.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/validation.c.o -c /Users/klargo/Desktop/2121/srcs/parsing/validation.c
 
 CMakeFiles/untitled.dir/srcs/parsing/validation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/parsing/validation.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/parsing/validation.c > CMakeFiles/untitled.dir/srcs/parsing/validation.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/parsing/validation.c > CMakeFiles/untitled.dir/srcs/parsing/validation.c.i
 
 CMakeFiles/untitled.dir/srcs/parsing/validation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/parsing/validation.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/parsing/validation.c -o CMakeFiles/untitled.dir/srcs/parsing/validation.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/parsing/validation.c -o CMakeFiles/untitled.dir/srcs/parsing/validation.c.s
 
 CMakeFiles/untitled.dir/srcs/path/get_path.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/path/get_path.c.o: ../srcs/path/get_path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/untitled.dir/srcs/path/get_path.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/path/get_path.c.o -c /Users/chell/Desktop/xueta/srcs/path/get_path.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/untitled.dir/srcs/path/get_path.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/path/get_path.c.o -c /Users/klargo/Desktop/2121/srcs/path/get_path.c
 
 CMakeFiles/untitled.dir/srcs/path/get_path.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/path/get_path.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/path/get_path.c > CMakeFiles/untitled.dir/srcs/path/get_path.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/path/get_path.c > CMakeFiles/untitled.dir/srcs/path/get_path.c.i
 
 CMakeFiles/untitled.dir/srcs/path/get_path.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/path/get_path.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/path/get_path.c -o CMakeFiles/untitled.dir/srcs/path/get_path.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/path/get_path.c -o CMakeFiles/untitled.dir/srcs/path/get_path.c.s
 
 CMakeFiles/untitled.dir/srcs/path/path_utils.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/path/path_utils.c.o: ../srcs/path/path_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/untitled.dir/srcs/path/path_utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/path/path_utils.c.o -c /Users/chell/Desktop/xueta/srcs/path/path_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/untitled.dir/srcs/path/path_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/path/path_utils.c.o -c /Users/klargo/Desktop/2121/srcs/path/path_utils.c
 
 CMakeFiles/untitled.dir/srcs/path/path_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/path/path_utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/path/path_utils.c > CMakeFiles/untitled.dir/srcs/path/path_utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/path/path_utils.c > CMakeFiles/untitled.dir/srcs/path/path_utils.c.i
 
 CMakeFiles/untitled.dir/srcs/path/path_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/path/path_utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/path/path_utils.c -o CMakeFiles/untitled.dir/srcs/path/path_utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/path/path_utils.c -o CMakeFiles/untitled.dir/srcs/path/path_utils.c.s
 
 CMakeFiles/untitled.dir/srcs/queue/join_queue.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/queue/join_queue.c.o: ../srcs/queue/join_queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/untitled.dir/srcs/queue/join_queue.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/queue/join_queue.c.o -c /Users/chell/Desktop/xueta/srcs/queue/join_queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/untitled.dir/srcs/queue/join_queue.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/queue/join_queue.c.o -c /Users/klargo/Desktop/2121/srcs/queue/join_queue.c
 
 CMakeFiles/untitled.dir/srcs/queue/join_queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/queue/join_queue.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/queue/join_queue.c > CMakeFiles/untitled.dir/srcs/queue/join_queue.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/queue/join_queue.c > CMakeFiles/untitled.dir/srcs/queue/join_queue.c.i
 
 CMakeFiles/untitled.dir/srcs/queue/join_queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/queue/join_queue.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/queue/join_queue.c -o CMakeFiles/untitled.dir/srcs/queue/join_queue.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/queue/join_queue.c -o CMakeFiles/untitled.dir/srcs/queue/join_queue.c.s
 
 CMakeFiles/untitled.dir/srcs/queue/pop.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/queue/pop.c.o: ../srcs/queue/pop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/untitled.dir/srcs/queue/pop.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/queue/pop.c.o -c /Users/chell/Desktop/xueta/srcs/queue/pop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/untitled.dir/srcs/queue/pop.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/queue/pop.c.o -c /Users/klargo/Desktop/2121/srcs/queue/pop.c
 
 CMakeFiles/untitled.dir/srcs/queue/pop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/queue/pop.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/queue/pop.c > CMakeFiles/untitled.dir/srcs/queue/pop.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/queue/pop.c > CMakeFiles/untitled.dir/srcs/queue/pop.c.i
 
 CMakeFiles/untitled.dir/srcs/queue/pop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/queue/pop.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/queue/pop.c -o CMakeFiles/untitled.dir/srcs/queue/pop.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/queue/pop.c -o CMakeFiles/untitled.dir/srcs/queue/pop.c.s
 
 CMakeFiles/untitled.dir/srcs/queue/pop_front.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/queue/pop_front.c.o: ../srcs/queue/pop_front.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/untitled.dir/srcs/queue/pop_front.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/queue/pop_front.c.o -c /Users/chell/Desktop/xueta/srcs/queue/pop_front.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/untitled.dir/srcs/queue/pop_front.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/queue/pop_front.c.o -c /Users/klargo/Desktop/2121/srcs/queue/pop_front.c
 
 CMakeFiles/untitled.dir/srcs/queue/pop_front.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/queue/pop_front.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/queue/pop_front.c > CMakeFiles/untitled.dir/srcs/queue/pop_front.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/queue/pop_front.c > CMakeFiles/untitled.dir/srcs/queue/pop_front.c.i
 
 CMakeFiles/untitled.dir/srcs/queue/pop_front.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/queue/pop_front.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/queue/pop_front.c -o CMakeFiles/untitled.dir/srcs/queue/pop_front.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/queue/pop_front.c -o CMakeFiles/untitled.dir/srcs/queue/pop_front.c.s
 
 CMakeFiles/untitled.dir/srcs/queue/push_back.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/queue/push_back.c.o: ../srcs/queue/push_back.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/untitled.dir/srcs/queue/push_back.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/queue/push_back.c.o -c /Users/chell/Desktop/xueta/srcs/queue/push_back.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/untitled.dir/srcs/queue/push_back.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/queue/push_back.c.o -c /Users/klargo/Desktop/2121/srcs/queue/push_back.c
 
 CMakeFiles/untitled.dir/srcs/queue/push_back.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/queue/push_back.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/queue/push_back.c > CMakeFiles/untitled.dir/srcs/queue/push_back.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/queue/push_back.c > CMakeFiles/untitled.dir/srcs/queue/push_back.c.i
 
 CMakeFiles/untitled.dir/srcs/queue/push_back.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/queue/push_back.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/queue/push_back.c -o CMakeFiles/untitled.dir/srcs/queue/push_back.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/queue/push_back.c -o CMakeFiles/untitled.dir/srcs/queue/push_back.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/errors.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/errors.c.o: ../srcs/utils/errors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/untitled.dir/srcs/utils/errors.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/errors.c.o -c /Users/chell/Desktop/xueta/srcs/utils/errors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/untitled.dir/srcs/utils/errors.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/errors.c.o -c /Users/klargo/Desktop/2121/srcs/utils/errors.c
 
 CMakeFiles/untitled.dir/srcs/utils/errors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/errors.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/errors.c > CMakeFiles/untitled.dir/srcs/utils/errors.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/errors.c > CMakeFiles/untitled.dir/srcs/utils/errors.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/errors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/errors.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/errors.c -o CMakeFiles/untitled.dir/srcs/utils/errors.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/errors.c -o CMakeFiles/untitled.dir/srcs/utils/errors.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/free.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/free.c.o: ../srcs/utils/free.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/untitled.dir/srcs/utils/free.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/free.c.o -c /Users/chell/Desktop/xueta/srcs/utils/free.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/untitled.dir/srcs/utils/free.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/free.c.o -c /Users/klargo/Desktop/2121/srcs/utils/free.c
 
 CMakeFiles/untitled.dir/srcs/utils/free.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/free.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/free.c > CMakeFiles/untitled.dir/srcs/utils/free.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/free.c > CMakeFiles/untitled.dir/srcs/utils/free.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/free.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/free.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/free.c -o CMakeFiles/untitled.dir/srcs/utils/free.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/free.c -o CMakeFiles/untitled.dir/srcs/utils/free.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.o: ../srcs/utils/ft_is_sep_cmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_is_sep_cmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_is_sep_cmd.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_is_sep_cmd.c > CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_is_sep_cmd.c > CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_is_sep_cmd.c -o CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_is_sep_cmd.c -o CMakeFiles/untitled.dir/srcs/utils/ft_is_sep_cmd.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.o: ../srcs/utils/ft_isspace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_isspace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_isspace.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_isspace.c > CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_isspace.c > CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_isspace.c -o CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_isspace.c -o CMakeFiles/untitled.dir/srcs/utils/ft_isspace.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.o: ../srcs/utils/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_itoa.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_itoa.c > CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_itoa.c > CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_itoa.c -o CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_itoa.c -o CMakeFiles/untitled.dir/srcs/utils/ft_itoa.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.o: ../srcs/utils/ft_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_malloc.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_malloc.c > CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_malloc.c > CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_malloc.c -o CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_malloc.c -o CMakeFiles/untitled.dir/srcs/utils/ft_malloc.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.o: ../srcs/utils/ft_skip_spaces.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_skip_spaces.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_skip_spaces.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_skip_spaces.c > CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_skip_spaces.c > CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_skip_spaces.c -o CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_skip_spaces.c -o CMakeFiles/untitled.dir/srcs/utils/ft_skip_spaces.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_split.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_split.c.o: ../srcs/utils/ft_split.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_split.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_split.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_split.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_split.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_split.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_split.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_split.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_split.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_split.c > CMakeFiles/untitled.dir/srcs/utils/ft_split.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_split.c > CMakeFiles/untitled.dir/srcs/utils/ft_split.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_split.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_split.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_split.c -o CMakeFiles/untitled.dir/srcs/utils/ft_split.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_split.c -o CMakeFiles/untitled.dir/srcs/utils/ft_split.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.o: ../srcs/utils/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_strcmp.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_strcmp.c > CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_strcmp.c > CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_strcmp.c -o CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_strcmp.c -o CMakeFiles/untitled.dir/srcs/utils/ft_strcmp.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.o: ../srcs/utils/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_strdup.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_strdup.c > CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_strdup.c > CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_strdup.c -o CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_strdup.c -o CMakeFiles/untitled.dir/srcs/utils/ft_strdup.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.o: ../srcs/utils/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_strequ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_strequ.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_strequ.c > CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_strequ.c > CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_strequ.c -o CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_strequ.c -o CMakeFiles/untitled.dir/srcs/utils/ft_strequ.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.o: ../srcs/utils/ft_strjoin_tripple.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_strjoin_tripple.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_strjoin_tripple.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_strjoin_tripple.c > CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_strjoin_tripple.c > CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_strjoin_tripple.c -o CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_strjoin_tripple.c -o CMakeFiles/untitled.dir/srcs/utils/ft_strjoin_tripple.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.o: ../srcs/utils/ft_strlen_shell.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_strlen_shell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_strlen_shell.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_strlen_shell.c > CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_strlen_shell.c > CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_strlen_shell.c -o CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_strlen_shell.c -o CMakeFiles/untitled.dir/srcs/utils/ft_strlen_shell.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.o: ../srcs/utils/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.o -c /Users/chell/Desktop/xueta/srcs/utils/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.o -c /Users/klargo/Desktop/2121/srcs/utils/get_next_line.c
 
 CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/get_next_line.c > CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/get_next_line.c > CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/get_next_line.c -o CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/get_next_line.c -o CMakeFiles/untitled.dir/srcs/utils/get_next_line.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.o: ../srcs/utils/get_next_line_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.o -c /Users/chell/Desktop/xueta/srcs/utils/get_next_line_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.o -c /Users/klargo/Desktop/2121/srcs/utils/get_next_line_utils.c
 
 CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/get_next_line_utils.c > CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/get_next_line_utils.c > CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/get_next_line_utils.c -o CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/get_next_line_utils.c -o CMakeFiles/untitled.dir/srcs/utils/get_next_line_utils.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/init.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/init.c.o: ../srcs/utils/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/untitled.dir/srcs/utils/init.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/init.c.o -c /Users/chell/Desktop/xueta/srcs/utils/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/untitled.dir/srcs/utils/init.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/init.c.o -c /Users/klargo/Desktop/2121/srcs/utils/init.c
 
 CMakeFiles/untitled.dir/srcs/utils/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/init.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/init.c > CMakeFiles/untitled.dir/srcs/utils/init.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/init.c > CMakeFiles/untitled.dir/srcs/utils/init.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/init.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/init.c -o CMakeFiles/untitled.dir/srcs/utils/init.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/init.c -o CMakeFiles/untitled.dir/srcs/utils/init.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/show_promt.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/show_promt.c.o: ../srcs/utils/show_promt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/untitled.dir/srcs/utils/show_promt.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/show_promt.c.o -c /Users/chell/Desktop/xueta/srcs/utils/show_promt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/untitled.dir/srcs/utils/show_promt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/show_promt.c.o -c /Users/klargo/Desktop/2121/srcs/utils/show_promt.c
 
 CMakeFiles/untitled.dir/srcs/utils/show_promt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/show_promt.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/show_promt.c > CMakeFiles/untitled.dir/srcs/utils/show_promt.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/show_promt.c > CMakeFiles/untitled.dir/srcs/utils/show_promt.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/show_promt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/show_promt.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/show_promt.c -o CMakeFiles/untitled.dir/srcs/utils/show_promt.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/show_promt.c -o CMakeFiles/untitled.dir/srcs/utils/show_promt.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/signals.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/signals.c.o: ../srcs/utils/signals.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/untitled.dir/srcs/utils/signals.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/signals.c.o -c /Users/chell/Desktop/xueta/srcs/utils/signals.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/untitled.dir/srcs/utils/signals.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/signals.c.o -c /Users/klargo/Desktop/2121/srcs/utils/signals.c
 
 CMakeFiles/untitled.dir/srcs/utils/signals.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/signals.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/signals.c > CMakeFiles/untitled.dir/srcs/utils/signals.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/signals.c > CMakeFiles/untitled.dir/srcs/utils/signals.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/signals.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/signals.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/signals.c -o CMakeFiles/untitled.dir/srcs/utils/signals.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/signals.c -o CMakeFiles/untitled.dir/srcs/utils/signals.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.o: ../srcs/utils/two_d_array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.o -c /Users/chell/Desktop/xueta/srcs/utils/two_d_array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.o -c /Users/klargo/Desktop/2121/srcs/utils/two_d_array.c
 
 CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/two_d_array.c > CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/two_d_array.c > CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/two_d_array.c -o CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/two_d_array.c -o CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.s
 
 CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.o: ../srcs/utils/ft_is_export.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.o -c /Users/chell/Desktop/xueta/srcs/utils/ft_is_export.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.o -c /Users/klargo/Desktop/2121/srcs/utils/ft_is_export.c
 
 CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/utils/ft_is_export.c > CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/utils/ft_is_export.c > CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.i
 
 CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/utils/ft_is_export.c -o CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/utils/ft_is_export.c -o CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.s
 
 CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.o: ../srcs/parsing/parse_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.o -c /Users/chell/Desktop/xueta/srcs/parsing/parse_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.o -c /Users/klargo/Desktop/2121/srcs/parsing/parse_utils.c
 
 CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chell/Desktop/xueta/srcs/parsing/parse_utils.c > CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/klargo/Desktop/2121/srcs/parsing/parse_utils.c > CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.i
 
 CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chell/Desktop/xueta/srcs/parsing/parse_utils.c -o CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/klargo/Desktop/2121/srcs/parsing/parse_utils.c -o CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
@@ -833,9 +833,9 @@ untitled: CMakeFiles/untitled.dir/srcs/utils/two_d_array.c.o
 untitled: CMakeFiles/untitled.dir/srcs/utils/ft_is_export.c.o
 untitled: CMakeFiles/untitled.dir/srcs/parsing/parse_utils.c.o
 untitled: CMakeFiles/untitled.dir/build.make
-untitled: ~/Users/chell/Desktop/xueta/ft_printf/libftprintf.a
+untitled: ../ft_printf/libftprintf.a
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking C executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking C executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -848,6 +848,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend:
-	cd /Users/chell/Desktop/xueta/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chell/Desktop/xueta /Users/chell/Desktop/xueta /Users/chell/Desktop/xueta/cmake-build-debug /Users/chell/Desktop/xueta/cmake-build-debug /Users/chell/Desktop/xueta/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/klargo/Desktop/2121/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/klargo/Desktop/2121 /Users/klargo/Desktop/2121 /Users/klargo/Desktop/2121/cmake-build-debug /Users/klargo/Desktop/2121/cmake-build-debug /Users/klargo/Desktop/2121/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled.dir/depend
 

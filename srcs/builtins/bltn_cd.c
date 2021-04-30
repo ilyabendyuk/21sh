@@ -11,8 +11,8 @@ void	set_env_cd(t_shell *shell, char *to_cd, int flag, char *oldpwd)
 		if (ft_strequ(to_cd, "-"))
 			ft_printf("%s\n", envoldpwd);
 		currpwd = getcwd(NULL, 0);
-		update_env(&shell->env->head, "PWD", currpwd);
-		update_env(&shell->env->head, "OLDPWD", oldpwd);
+		update_env(&shell->env, "PWD", currpwd);
+		update_env(&shell->env, "OLDPWD", oldpwd);
 		free(currpwd);
 	}
 	if (flag == -1)
