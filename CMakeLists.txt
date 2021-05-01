@@ -60,7 +60,13 @@ add_executable(untitled
         headers/minishell.h
         headers/structs.h
         srcs/utils/ft_is_export.c
-        srcs/parsing/parse_utils.c)
+        srcs/parsing/parse_utils.c
+        srcs/parsing/multiline_cmd.c
+        srcs/utils/is_number.c
+        srcs/parsing/aggro.c
+        srcs/utils/starts_with.c
+        srcs/utils/ft_strnstr.c
+        srcs/exec/aggreg.c)
 
 target_link_libraries(untitled ${LIBRARY_PATH})
 

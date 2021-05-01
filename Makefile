@@ -10,18 +10,20 @@ ENV =	assemble_env.c get_env_var.c parse_env_var.c update_env.c \
 PARSE = assemble_tokens_to_cmds.c	parse_token.c \
 		check_redir.c				push.c \
 		parse_quotes.c				validation.c \
-		parse_utils.c
+		parse_utils.c               multiline_cmd.c \
+		aggro.c
 
 UTILS =	two_d_array.c           ft_isspace.c            ft_split.c              ft_strjoin_tripple.c    init.c \
 		errors.c                ft_itoa.c               ft_strcmp.c             ft_strlen_shell.c       show_promt.c \
         free.c                  ft_malloc.c             ft_strdup.c             get_next_line.c         signals.c \
-        ft_is_sep_cmd.c         ft_skip_spaces.c        ft_strequ.c             get_next_line_utils.c	ft_is_export.c
+        ft_is_sep_cmd.c         ft_skip_spaces.c        ft_strequ.c             get_next_line_utils.c	ft_is_export.c \
+        is_number.c             starts_with.c           ft_strnstr.c
 
 PATH =	get_path.c      path_utils.c
 
 QUEUE =	join_queue.c    pop.c           pop_front.c     push_back.c
 
-EXEC =	check_redirs.c  exec.c          exec_loop.c
+EXEC =	check_redirs.c  exec.c          exec_loop.c     aggreg.c
 
 # VARIABLES FOR HEADERS
 

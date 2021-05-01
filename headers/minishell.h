@@ -103,4 +103,13 @@ t_queue		*get_last_elem(t_queue *queue);
 int			return_error(t_queue **c1, t_queue **q1, t_queue *c, t_queue *q);
 void		*ft_free(void *ptr);
 void		wait_exec(t_shell *shell, t_comand *cmd);
+int			check_quotes(char *str);
+int			is_number(char c);
+int			check_aggro(char *line);
+char		*create_aggro(char **line);
+int			starts_with(char *line, char *to_find);
+char		*ft_strnstr(const char *str, const char *to_find, size_t len);
+int			ft_aggreg(t_redir *redir, t_shell *shell);
+int			is_number_str(char *s);
+
 #endif
