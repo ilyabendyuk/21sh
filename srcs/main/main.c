@@ -58,6 +58,7 @@ void	minishell(t_shell *shell)
 
 	line = NULL;
 	show_promt(shell);
+
 	while (21)
 	{
 		init_globals();
