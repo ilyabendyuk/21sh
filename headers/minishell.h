@@ -25,6 +25,7 @@ int			g_sigint;
 int			g_sigquit;
 int			g_gachi;
 pid_t		g_pid1;
+int			g_ric;
 /*
  *         	WE ARE FARMERS
  */

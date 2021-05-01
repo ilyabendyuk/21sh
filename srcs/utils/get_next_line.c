@@ -68,10 +68,21 @@ int	check_new_line(char *remember)
 	return (0);
 }
 
+static int	R(int len)
+{
+	if (g_ric == 0 && len == 0)
+	{
+		return (1);
+	}
+	else
+		g_ric++;
+	return (0);
+}
+
 int	get_next_line(int fd, char **line)
 {
 	char		buffer[100 + 1];
-	ssize_t		read_buffer;
+	ssize_t		len;
 	static char	*remember;
 	int			flag;
 
@@ -79,16 +90,16 @@ int	get_next_line(int fd, char **line)
 		return (1);
 	while (!check_new_line(remember))
 	{
-		read_buffer = read(fd, buffer, 100);
-		if (buffer[read_buffer - 1] != '\n')
+		len = read(fd, buffer, 100);
+		if (buffer[len - 1] != '\n')
 		{
 			ft_printf("  \b\b");
 			if ((ft_strlen_shell(*line) == 0 && flag != 0)
 				|| (ft_strlen_shell(buffer) == 0 && flag == 0)
-				|| (read_buffer == 0 && !remember && g_gachi == 1))
+				|| (len == 0 && !remember && g_gachi == 1) || R(len))
 				return (0);
 		}
-		buffer[read_buffer] = '\0';
+		buffer[len] = '\0';
 		join_line(line, buffer, &remember);
 		flag++;
 		if (remember)

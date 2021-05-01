@@ -58,7 +58,6 @@ void	minishell(t_shell *shell)
 
 	line = NULL;
 	show_promt(shell);
-
 	while (21)
 	{
 		init_globals();
@@ -80,6 +79,7 @@ int	main(int argc, char **argv, char **env)
 	g_prev_err = 0;
 	shell.g_ret = 0;
 	shell.args = NULL;
+	g_ric = 0;
 	init_env(&shell, env);
 	minishell(&shell);
 	exit(0);
