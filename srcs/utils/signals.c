@@ -6,7 +6,7 @@ void	sig_int(int code)
 	if (g_pid == 0)
 	{
 		fd_printf(2, "\b\b  \n");
-		fd_printf(2, "minishell$>");
+		fd_printf(2, "21sh$>");
 		g_err = 1;
 	}
 	else

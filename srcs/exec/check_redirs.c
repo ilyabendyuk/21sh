@@ -1,7 +1,7 @@
 #include <minishell.h>
 #include <errno.h>
 
-int		is_number_str(char *s)
+int	is_number_str(char *s)
 {
 	while (*s)
 	{
@@ -12,17 +12,14 @@ int		is_number_str(char *s)
 	return (1);
 }
 
-
-int		ft_aggreg(t_redir *redir, t_shell *shell)
+int	ft_aggreg(t_redir *redir, t_shell *shell)
 {
 	int	fd_left;
 	int	fd_right;
 
 	fd_right = (int)ft_atoll(redir->fname2);
 	if (ft_strlen_shell(redir->fname) != 0)
-	{
 		fd_left = (int) ft_atoll(redir->fname);
-	}
 	else if (ft_strequ(redir->id, "<&"))
 		fd_left = 0;
 	else
@@ -31,34 +28,31 @@ int		ft_aggreg(t_redir *redir, t_shell *shell)
 	{
 		shell->g_fd_out = fd_right;
 		dup2(fd_right, fd_left);
-		return (0);
 	}
 	else if (ft_strequ(redir->fname2, "-"))
-	{
 		close(fd_left);
-		return (0);
-	}
 	else
 	{
 		fd_printf(2, "21sh: %s: ambiguous redirect", redir->fname2);
 		return (AGG_ERROR);
 	}
+	return (0);
 }
 
-void heredoc(t_shell *shell, char *here) //TODO EOF
+void	heredoc(t_shell *shell, char *here)
 {
 	int		fd[2];
 	char	*line;
 
-	dup2(shell->g_save_in, 0); //ФИЧА???
+	dup2(shell->g_save_in, 0);
 	pipe(fd);
 	line = NULL;
-	fd_printf(1,"> ");
+	fd_printf(1, "> ");
 	while (get_next_line(0, &line))
 	{
 		if (ft_strequ(line, here))
 			break ;
-		fd_printf(1,"> ");
+		fd_printf(1, "> ");
 		write(fd[1], line, ft_strlen_shell(line));
 		write(fd[1], "\n", 1);
 		line = ft_free(line);
@@ -83,7 +77,7 @@ void	check_and_close(t_shell *shell, t_redir *redir)
 	}
 }
 
-int		try_open_redirs(t_shell *shell, t_redir *redir)
+int	try_open_redirs(t_shell *shell, t_redir *redir)
 {
 	int	flag;
 
@@ -114,11 +108,11 @@ void	error_redir(int flag, char *tmp_redir)
 	dir = opendir(tmp_redir);
 	access(tmp_redir, 0);
 	if (dir)
-		fd_printf(2, "minishell: %s: Is a directory\n", tmp_redir);
+		fd_printf(2, "21sh: %s: Is a directory\n", tmp_redir);
 	else if (errno == ENOENT)
-		fd_printf(2, "minishell: %s: No such file or directory\n", tmp_redir);
+		fd_printf(2, "21sh: %s: No such file or directory\n", tmp_redir);
 	else
-		fd_printf(2, "minishell: %s: Permission denied\n", tmp_redir);
+		fd_printf(2, "21sh: %s: Permission denied\n", tmp_redir);
 	if (dir)
 		closedir(dir);
 }

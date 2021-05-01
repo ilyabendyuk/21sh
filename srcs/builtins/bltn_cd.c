@@ -21,9 +21,9 @@ void	set_env_cd(t_shell *shell, char *to_cd, int flag, char *oldpwd)
 		if (ft_strequ(to_cd, "-"))
 			to_cd = envoldpwd;
 		if (!to_cd)
-			ft_printf("minishell: cd: HOME not set\n");
+			ft_printf("21sh: cd: HOME not set\n");
 		else
-			ft_printf("minishell: cd: %s: No such file or directory\n", to_cd);
+			ft_printf("21sh: cd: %s: No such file or directory\n", to_cd);
 	}
 	free(oldpwd);
 }
@@ -46,7 +46,7 @@ void	bltn_cd(t_shell *shell, char *to_cd)
 		if (!envoldpwd)
 		{
 			flag = -2;
-			ft_printf("minishell: cd: OLDPWD not set\n");
+			ft_printf("21sh: cd: OLDPWD not set\n");
 		}
 		else
 			flag = chdir(envoldpwd);

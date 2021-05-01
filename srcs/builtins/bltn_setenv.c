@@ -37,7 +37,7 @@ void	print_env_no_args(t_queue *env)
 	e = sort_2d_array(&e);
 	while (e[i])
 	{
-		if(ft_strlen_shell(e[i]) > 1)
+		if (ft_strlen_shell(e[i]) > 1)
 			ft_printf("declare -x %s\n", e[i]);
 		i++;
 	}
@@ -56,7 +56,7 @@ void	check_and_replace_env(t_queue *env, char *arg)
 	if ((arg[0] >= '0' && arg[0] <= '9') || arg[0] == '=')
 	{
 		g_err = 1;
-		ft_printf("minishell: setenv: %s: not a valid identifier\n", arg);
+		ft_printf("21sh: setenv: %s: not a valid identifier\n", arg);
 		return ;
 	}
 	name = ft_strndup(arg, i);

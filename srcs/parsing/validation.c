@@ -29,22 +29,21 @@ int	validate_redirs(t_queue *args)
 	return (validation_error(args->next, NULL));
 }
 
-int aggro_error(char *str)
+int	aggro_error(char *str)
 {
-	(void)str;
-	fd_printf(2, "21sh: Bad file descriptor\n"); //itoa
+	fd_printf(2, "21sh: %s: Bad file descriptor\n", str);
 	return (0);
 }
 
 int	validate_aggro(t_queue *args)
 {
-	char *aggr;
-	char *start;
+	char	*aggr;
+	char	*start;
 
 	aggr = args->data;
 	if (ft_atoll(aggr) > 2559)
 		return (aggro_error(aggr));
-	while(*aggr && is_number(*aggr))
+	while (*aggr && is_number(*aggr))
 		aggr++;
 	aggr += 2;
 	if (*aggr == '\0')
@@ -57,11 +56,8 @@ int	validate_aggro(t_queue *args)
 	return (1);
 }
 
-int	validate_tokens(t_queue *args)
+int	validate_tokens(t_queue *args, int token_count)
 {
-	int		token_count;
-
-	token_count = 0;
 	if (!args)
 		return (0);
 	while (args)

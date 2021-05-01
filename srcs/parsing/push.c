@@ -2,12 +2,12 @@
 
 t_redir	*create_aggro_redir(char *aggr)
 {
-	t_redir *redir;
+	t_redir	*redir;
 	char	*tmp;
 
 	tmp = aggr;
 	redir = (t_redir *)ft_malloc(sizeof(t_redir));
-	while(*aggr && *aggr != '<' && *aggr != '>')
+	while (*aggr && *aggr != '<' && *aggr != '>')
 		aggr++;
 	redir->fname = ft_strndup(tmp, aggr - tmp);
 	redir->id = ft_strndup(aggr, 2);
@@ -19,8 +19,10 @@ void	push_redir(t_queue *cmd, t_queue **tokens)
 {
 	t_redir	*redir;
 
-	if (ft_strstr((*tokens)->data, ">&") || ft_strstr((*tokens)->data, "<&"))
-		return (push_back(&(((t_comand *)cmd->data)->redir), create_aggro_redir((*tokens)->data)));
+	if (ft_strstr((*tokens)->data, ">&")
+		|| ft_strstr((*tokens)->data, "<&"))
+		return (push_back(&(((t_comand *)cmd->data)->redir),
+				create_aggro_redir((*tokens)->data)));
 	redir = (t_redir *)ft_malloc(sizeof(t_redir));
 	redir->id = ft_strdup((*tokens)->data);
 	redir->fname = ft_strdup((*tokens)->next->data);
@@ -50,7 +52,8 @@ t_queue	*push_pipe(t_queue *cmd, t_queue *tokens)
 			if (check_redir(tokens->data) > 0)
 				((t_comand *)get_last_elem(cmd)->data)->cmd = ft_strdup("");
 			else
-				((t_comand *)get_last_elem(cmd)->data)->cmd = ft_strdup(tokens->data);
+				((t_comand *)get_last_elem(cmd)->data)->cmd
+					= ft_strdup(tokens->data);
 		}
 		if (check_redir(tokens->data) > 0)
 			push_redir(get_last_elem(cmd), &tokens);

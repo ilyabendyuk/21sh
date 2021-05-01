@@ -19,11 +19,11 @@ void	path_err(char *cmd)
 	fd = open(cmd, O_WRONLY);
 	dir = opendir(cmd);
 	if (fd == -1 && dir != NULL)
-		fd_printf(2, "minishell: %s: is a directory\n", cmd);
+		fd_printf(2, "21sh: %s: is a directory\n", cmd);
 	else if (fd != -1 && dir != NULL)
-		fd_printf(2, "minishell: %s: Permission denied\n", cmd);
+		fd_printf(2, "21sh: %s: Permission denied\n", cmd);
 	else
-		fd_printf(2, "minishell: %s: No such file or directory\n", cmd);
+		fd_printf(2, "21sh: %s: No such file or directory\n", cmd);
 	if (fd == -1 && dir == NULL)
 		g_err = 127;
 	else

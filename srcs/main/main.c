@@ -2,10 +2,10 @@
 #include <get_next_line.h>
 #include <stdio.h>
 
-int check_double(char *str, int i)
+int	check_double(char *str, int i)
 {
 	i++;
-	while(str[i])
+	while (str[i])
 	{
 		if (str[i] == '\\')
 		{
@@ -19,10 +19,10 @@ int check_double(char *str, int i)
 	return (-1);
 }
 
-int check_single(char *str, int i)
+int	check_single(char *str, int i)
 {
 	i++;
-	while(str[i])
+	while (str[i])
 	{
 		if (str[i] == '\'')
 			return (i);
@@ -41,7 +41,7 @@ int	check_quotes(char *str)
 		if (str[i] == '\\')
 		{
 			i += 2;
-			continue;
+			continue ;
 		}
 		if (str[i] == '\'')
 		{
@@ -62,13 +62,14 @@ int	check_quotes(char *str)
 
 void 	check_multiline(char **line)
 {
-	char *acct_line;
-	char *tmp_line;
-	char *prev_line;
+	char	*acct_line;
+	char	*tmp_line;
+	char	*prev_line;
 
+	g_gachi = 1;
 	tmp_line = 0;
 	acct_line = *line;
-	while(!check_quotes(acct_line))
+	while (!check_quotes(acct_line))
 	{
 		ft_printf("> ");
 		get_next_line(0, &tmp_line);
@@ -87,10 +88,9 @@ void	parse_and_exec(t_shell *shell, char *line)
 	ret = get_next_line(0, &line);
 	if (ret > 0)
 	{
-		g_gachi = 1;
 		check_multiline(&line);
 		parse_comands(shell, line);
-		if (validate_tokens(shell->args) == 0)
+		if (validate_tokens(shell->args, 0) == 0)
 		{
 			line = ft_free(line);
 			free_tokens(shell->args);
@@ -116,7 +116,6 @@ void	minishell(t_shell *shell)
 
 	line = NULL;
 	show_promt(shell);
-//	g_gachi = 0;
 	while (21)
 	{
 		init_globals();

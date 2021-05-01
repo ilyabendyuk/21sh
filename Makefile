@@ -1,4 +1,4 @@
-NAME = minishell
+NAME = 21sh
 
 MAIN =	main.c
 
@@ -44,8 +44,8 @@ DEPS		= 	$(HEADERS) Makefile
 
 # COMPILING FLAGS
 
-CC			= gcc -O3
-CFLAGS		=
+CC			= gcc -O2
+CFLAGS		= -Wall -Wextra -Werror
 
 # VARIABLES FOR .C DIRECTORIES
 

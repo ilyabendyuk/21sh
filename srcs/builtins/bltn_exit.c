@@ -40,13 +40,13 @@ void	bltn_exit(t_comand *cmd, int exit_flag)
 	if ((i == 1 && (cmd->args[i][0] == '-' || cmd->args[i][0] == '+'))
 		|| cmd->args[1][i] != '\0')
 	{
-		fd_printf(2, "minishell: exit: %s: numeric argument required\n",
+		fd_printf(2, "21sh: exit: %s: numeric argument required\n",
 			cmd->args[1]);
 		exit(255);
 	}
 	if (cmd->args[2])
 	{
-		ft_printf("minishell: exit: too many arguments\n");
+		ft_printf("21sh: exit: too many arguments\n");
 		g_err = 1;
 		return ;
 	}

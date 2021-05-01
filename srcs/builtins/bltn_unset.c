@@ -9,7 +9,7 @@ void	del_env_instanse(t_queue *env, char *arg)
 	if ((arg[0] >= '0' && arg[0] <= '9') || arg[0] == '=')
 	{
 		g_err = 1;
-		ft_printf("minishell: unsetenv: %s: not a valid identifier\n", arg);
+		ft_printf("21sh: unsetenv: %s: not a valid identifier\n", arg);
 		return ;
 	}
 	while (tmp)

@@ -2,22 +2,22 @@
 
 static char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 {
-	unsigned int pos;
-	unsigned int i;
+	unsigned int	pos;
+	unsigned int	i;
 
 	if (!*to_find)
-		return ((char*)str);
+		return ((char *)str);
 	pos = 0;
 	while (str[pos] != '\0' && (size_t)pos < len)
 	{
 		if (str[pos] == to_find[0])
 		{
 			i = 1;
-			while (to_find[i] != '\0' && str[pos + i] == to_find[i] &&
-				   (size_t)(pos + i) < len)
+			while (to_find[i] != '\0' && str[pos + i] == to_find[i]
+				&& (size_t)(pos + i) < len)
 				++i;
 			if (to_find[i] == '\0')
-				return ((char*)&str[pos]);
+				return ((char *)&str[pos]);
 		}
 		++pos;
 	}
@@ -29,7 +29,7 @@ void	ft_skip_sep_cmd(t_shell *shell, char **line)
 	t_queue	*tmp;
 
 	tmp = NULL;
-	if (ft_strnstr(*line, ">&", 2) || ft_strnstr(*line, "<&", 2)) //check
+	if (ft_strnstr(*line, ">&", 2) || ft_strnstr(*line, "<&", 2))
 		return ;
 	if (**line == '<' || **line == '>')
 	{
@@ -61,11 +61,11 @@ char	*parse_shield(char **line)
 	return (shield);
 }
 
-int		starts_with(char *line, char *to_find)
+int	starts_with(char *line, char *to_find)
 {
 	if (ft_strlen_shell(line) < ft_strlen_shell(to_find))
 		return (0);
-	while(*line && *to_find)
+	while (*line && *to_find)
 	{
 		if (*line != *to_find)
 			return (0);
@@ -82,7 +82,8 @@ int 	is_number(char c)
 
 int 	check_aggro(char *line)
 {
-	if (!(starts_with(line, ">&") || starts_with(line, "<&"))  && !is_number(*line))
+	if (!(starts_with(line, ">&") || starts_with(line, "<&"))
+		&& !is_number(*line))
 		return (0);
 	if (starts_with(line, ">&") || starts_with(line, "<&"))
 		return (1);
@@ -93,20 +94,29 @@ int 	check_aggro(char *line)
 	return (0);
 }
 
-char 	*create_aggro(char **line)
+char	*create_aggro(char **line)
 {
-	char *start;
-	char *ret;
+	char	*start;
+	char	*ret;
 
 	start = *line;
 	while (is_number(**line))
 		(*line)++;
 	(*line) += 2;
-	while(**line && !ft_is_sep_cmd(**line) && **line != ' ' && **line != '\t')
+	while (**line && !ft_is_sep_cmd(**line) && **line != ' ' && **line != '\t')
 		(*line)++;
 	ret = ft_strndup(start, *line - start);
 	(*line)--;
 	return (ret);
+}
+
+char	*join_tokens(t_shell *shell, t_queue **tokens, char *line)
+{
+	if (*tokens)
+		push_back(&shell->args, join_queue(*tokens));
+	*tokens = NULL;
+	ft_skip_sep_cmd(shell, &line);
+	return (line);
 }
 
 char	*parse_token(t_shell *shell, char *line, t_queue **to)
@@ -115,12 +125,7 @@ char	*parse_token(t_shell *shell, char *line, t_queue **to)
 
 	tokens = *to;
 	if (ft_skip_spaces(&line) > 0 || ft_is_sep_cmd(*line))
-	{
-		if (tokens)
-			push_back(&shell->args, join_queue(tokens));
-		tokens = NULL;
-		ft_skip_sep_cmd(shell, &line);
-	}
+		line = join_tokens(shell, &tokens, line);
 	if (*line == '$' || *line == '~')
 		push_back(&tokens, parse_env_var(shell->env, &line));
 	else if (*line == '\\')
@@ -129,16 +134,16 @@ char	*parse_token(t_shell *shell, char *line, t_queue **to)
 		push_back(&tokens, parse_single_quote(&line));
 	else if (*line == '\"')
 		push_back(&tokens, parse_double_quote(shell, &line, NULL));
-	else if (*line != '\0' && !ft_isspace(*line) && (!ft_is_sep_cmd(*line) || (ft_is_sep_cmd(*line) && *(line + 1) == '&')))
+	else if (*line != '\0' && !ft_isspace(*line) && (!ft_is_sep_cmd(*line)
+			|| (ft_is_sep_cmd(*line) && *(line + 1) == '&')))
 	{
-		if ((ft_isspace(*(line - 1))  || !tokens) && check_aggro(line))
+		if ((ft_isspace(*(line - 1)) || !tokens) && check_aggro(line))
 			push_back(&tokens, create_aggro(&line));
 		else
 			push_back(&tokens, ft_strndup(line, 1));
-		line++;
 	}
 	*to = tokens;
-	return (line);
+	return (++line);
 }
 
 void	parse_comands(t_shell *shell, char *line)

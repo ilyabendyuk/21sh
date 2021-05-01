@@ -50,10 +50,6 @@ void	execute_cmd(t_shell *shell, t_comand *cmd, int exit_flag)
 
 void	exec_last_cmd(t_shell *shell, t_comand *cmd, int exit_flag)
 {
-	int		save_fd[2];
-
-//	save_fd[0] = dup(0);
-//	save_fd[1] = dup(1);
 	if (shell->g_fd_in >= 0)
 		dup2(shell->g_fd_in, 0);
 	if (shell->g_fd_out >= 0)
@@ -63,13 +59,11 @@ void	exec_last_cmd(t_shell *shell, t_comand *cmd, int exit_flag)
 	{
 		close(shell->g_fd_in);
 		shell->g_fd_in = -2;
-//		dup2(save_fd[0], 0);
 	}
 	if (shell->g_fd_out >= 0)
 	{
 		close(shell->g_fd_out);
 		shell->g_fd_out = -2;
-//		dup2(save_fd[1], 1);
 	}
 }
 
@@ -93,7 +87,6 @@ void	wait_exec(t_shell *shell, t_comand *cmd)
 
 void	handle_exec(t_shell *shell, t_comand *cmd, int exit_flag)
 {
-//	ft_printf("%s\n", cmd->cmd);
 	close(shell->g_pipe[0]);
 	if (shell->g_fd_out == -2)
 		dup2(shell->g_pipe[1], 1);
