@@ -68,9 +68,10 @@ char	*parse_token(t_shell *shell, char *line, t_queue **to)
 			push_back(&tokens, create_aggro(&line));
 		else
 			push_back(&tokens, ft_strndup(line, 1));
+		line++;
 	}
 	*to = tokens;
-	return (++line);
+	return (line);
 }
 
 void	parse_comands(t_shell *shell, char *line)
