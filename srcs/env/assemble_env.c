@@ -12,7 +12,8 @@ char	**assemble_env(t_queue *envir)
 	while (env)
 	{
 		token = env->data;
-		env_line = ft_strjoin_tripple(token->name, "=", token->value);
+		if (ft_strlen_shell(token->name) > 0)
+			env_line = ft_strjoin_tripple(token->name, "=", token->value);
 		res_env = realloc_2d_array(res_env, env_line);
 		ft_free(env_line);
 		env = env->next;
